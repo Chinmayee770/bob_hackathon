@@ -1,17 +1,21 @@
 import React from 'react'
+import Button from '@mui/material/Button';
+import Avatar from '@mui/material/Avatar';
+
+
 
 const Navbar = () => {
   return (
     <>
-    <div className='border-orange-600 w-full bg-orange-600 flex justify-between mb-8'>
-        <img src='./logo.png' className='w-1/6 h-20 ml-2'></img>
-        <div>Bank of Baroda</div>
-        <div>Bank of Baroda</div>
-        <div>Bank of Baroda</div>
+    <div className='bg-[#ff5b2e] w-full flex justify-between'>
+        <img src='./logo.png' className='h-20'></img>
+        <div className='text-4xl font-bold text-white pt-4'>Title by BOB</div>
+        <Avatar className='mt-4 mr-5'>PG</Avatar>
+
     </div>
-    <hr className='border-orange-600 border-1 rounded-md ml-8 mr-8'></hr>
     </>
   )
 }
+
 
 export default Navbar
