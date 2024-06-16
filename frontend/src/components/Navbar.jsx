@@ -7,11 +7,17 @@ import Avatar from '@mui/material/Avatar';
 const Navbar = () => {
   return (
     <>
-    <div className='bg-[#ff5b2e] w-full flex justify-between'>
-        <img src='./logo.png' className='h-20'></img>
-        <div className='text-4xl font-bold text-white pt-4'>Title by BOB</div>
-        <Avatar className='mt-4 mr-5'>PG</Avatar>
-
+    <div className='bg-[#ff5b2e] shadow-md flex justify-between mt-3 mr-4 ml-4 rounded-full'>
+      <div className='flex justify-start'>
+        <img src='./logo copy.png' className='h-14 pl-10'></img>
+        <div className='text-2xl font-bold text-white pt-3 pl-5'>Walter White</div>
+      </div>
+      <div className='flex justify-around'>
+      <div className='text-xl font-bold text-white pt-3 mr-4'>Contact</div>
+      <div className='text-xl font-bold text-white pt-3 mr-4'>Features</div>
+      <div className='text-xl font-bold text-white pt-3 mr-36'>About</div>
+      </div>
+        <Avatar className='mt-2 mr-5'>PG</Avatar>
     </div>
     </>
   )

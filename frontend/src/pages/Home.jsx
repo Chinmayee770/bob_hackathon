@@ -1,14 +1,22 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import backgroundImage from '../../public/Baroda_Lvp.jpg'; // Adjust the path as necessary
 
 const Home = () => {
   return (
-    <>
-    <Navbar />
-    <Hero />
-    </>
-  )
-}
+    <div
+      className="relative w-screen h-screen overflow-hidden"
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <Navbar />
+      <Hero />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
