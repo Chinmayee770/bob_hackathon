@@ -1,4 +1,4 @@
-# BANK OF BARODA HACKATHON
+# Bank Of Baroda Hackathon
 
 # Walter White: Generative AI-Powered Dashboard for Enhanced Operations and Loan Approvals
 
