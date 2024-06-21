@@ -115,3 +115,29 @@ Walter White uniquely combines multiple functionalities into a single platform, 
 - **Security Audits:** Conducts regular security audits and compliance checks to ensure the integrity and security of the platform.
 
 ---
+## Tech Stack
+
+### Frontend
+- **React JS:** For building a dynamic and responsive user interface.
+
+### Backend
+- **Node JS:** For building scalable server-side applications.
+- **Flask:** For developing RESTful APIs and handling backend logic.
+
+### Machine Learning and AI
+- **Azure Machine Learning:** For building and deploying machine learning models.
+- **Azure Cognitive Services:** For natural language processing, sentiment analysis, and other AI-driven tasks.
+- **Lang-Chain:** For efficient database retrieval and analytics.
+
+### Data Storage and Processing
+- **Azure Blob Storage:** For storing uploaded files and large datasets.
+- **Azure SQL Database:** For storing and querying structured data.
+- **Azure Data Factory:** For orchestrating data workflows and processing.
+
+### Automation and Integration
+- **Azure Functions:** For running serverless code triggered by events such as file uploads or HTTP requests.
+- **Azure Logic Apps:** For automating workflows and integrating with external services.
+
+### Security
+- **Azure Multi-Factor Authentication (MFA):** For securing user access.
+- **Role-Based Access Control (RBAC):** For managing permissions and access levels.
