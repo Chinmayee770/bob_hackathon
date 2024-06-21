@@ -47,9 +47,10 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Verification Process:** Ensures that all financial and external data meet required standards.
   - **Reference:** [Satyam Scam Overview](https://www.5paisa.com/blog/satyam-scam)
 
-### 5. Lang-Chain for Database Retrieval
+### 5. Lang-Chain for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
   - **Reference:** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
+  - reference 2: analytics
 
 ### 6. Loan Approval Process
 - **Verification:** Checks if financial ratios, external data, and audit verifications meet thresholds.
@@ -62,8 +63,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
   - **Reference:** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
 
 ### 8. Email Categorization and Response
-- **Azure Cognitive Services:** Classifies incoming emails based on content and keywords.
-- **Azure Functions:** Generates and sends automated responses using Generative AI.
+- **Azure Cognitive Services:** Classifies incoming emails based on content and keywords and shows on dashboard
+- **Azure Functions:** Generates and sends automated responses using Generative AI from centralized dashboard
   - **Reference:** [Python Gmail Auto Responder using ChatGPT](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
 
 ---
