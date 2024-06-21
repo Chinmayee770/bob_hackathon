@@ -57,7 +57,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:** Implements logic for threshold checks and validation.
 - **Approval:** Grants loan approval if all checks are satisfactory.
   - **Reference:**)
-
+###6.5. - **(There will be a final validation from human side also to check if input documents is same as balnce sheet.csv- **
 ### 7. Customer (Non-Businesses) Credit Score Calculation
 - **Azure Machine Learning:** Uses an improved ML model to calculate credit scores for non-business customers.
   - **Reference:** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
