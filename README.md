@@ -9,12 +9,7 @@
 - Suraj Chavan
 - Anuj Tadkase
 
----![Customer](https://github.com/ANUJT65/bob_hackathon/assets/123918593/3652dca0-5b93-4c42-9f94-38526886873b)
-
-![WhatsApp Image 2024-06-22 at 2 22 43 AM](https://github.com/ANUJT65/bob_hackathon/assets/123918593/d53f7199-56ef-4fd0-b52e-c159ce729ad7)
-![WhatsApp Image 2024-06-22 at 2 22 42 AM](https://github.com/ANUJT65/bob_hackathon/assets/123918593/91f32f14-1511-472a-9518-0f815c0b7035)
-![WhatsApp Image 2024-06-22 at 2 22 42 AM (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/0b0be6ab-66bb-4454-9c22-b2e57aa5310d)
-
+---
 
 ## Problem Statement
 
@@ -75,7 +70,15 @@ The Walter White dashboard integrates various Azure services and machine learnin
   - **Reference:** [Python Gmail Auto Responder using ChatGPT](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
 
 ---
+## IMPLEMENTATION
 
+![Customer](https://github.com/ANUJT65/bob_hackathon/assets/123918593/3652dca0-5b93-4c42-9f94-38526886873b)
+
+![WhatsApp Image 2024-06-22 at 2 22 43 AM](https://github.com/ANUJT65/bob_hackathon/assets/123918593/d53f7199-56ef-4fd0-b52e-c159ce729ad7)
+![WhatsApp Image 2024-06-22 at 2 22 42 AM](https://github.com/ANUJT65/bob_hackathon/assets/123918593/91f32f14-1511-472a-9518-0f815c0b7035)
+![WhatsApp Image 2024-06-22 at 2 22 42 AM (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/0b0be6ab-66bb-4454-9c22-b2e57aa5310d)
+
+---
 ## Uniqueness of Approach
 
 ### Comprehensive Automation
