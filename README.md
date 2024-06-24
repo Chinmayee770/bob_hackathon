@@ -14,7 +14,7 @@
 ## Problem Statement
 
 The banking industry faces significant challenges in operational efficiency, particularly in repetitive administrative tasks and lengthy loan approval processes. Our project, Walter White, aims to address these challenges by creating a centralized dashboard that leverages Generative AI and Machine Learning.
-- The main goals of the Walter White dashboard are to:
+ The main goals of the Walter White dashboard are to:
 
 - **Retrieve and Analyze Customer Data:** Automatically fetch, store, and process customer data to support informed decision-making.
 - **Perform Repetitive Calculations:** Automate financial calculations and metrics to reduce manual effort and minimize errors.
