@@ -53,7 +53,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:** Handles form submissions and updates the database accordingly.
 
 ### 2. Financial Ratio Calculation
-- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.
+- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.(Gen ai for calculations is not reliable )
   - **Reference:** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
 
 ### 3. External Data Integration
