@@ -29,29 +29,34 @@ The banking industry faces significant challenges in operational efficiency, par
 The Walter White dashboard integrates various Azure services and machine learning models to automate and streamline banking operations. Here’s a detailed breakdown of how each component functions:
 
 
+
+
+## Prerequisites
+
+There are 3 types of models we are using for enhancing operations in banks:
+**All are very crucial in functioning of banks**
+
+### 1. Business Loan Analytics
+The parameters for giving business loans are very different from personal loans. The parameters considered include:
+- Income tax returns
+- Audited balance sheets
+
+- [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
+- [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
+
+### 2. Personal Loan Analytics
+The parameters considered for personal loans are detailed in the following PDF:
+- [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
+
+### 3. Email Classification and Categorization
+This model categorizes and classifies emails sent to respective departments so that customers are prioritized and their queries are always resolved.
+
 ################
 ## Detailed Workflow
 
 ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/9be64272-572e-46c5-be3b-5b1a14a0dfac)
 
 **Please follow the numbers in diagram , their descriptions are given below accordingly**
-
-
-  
-- Prerequisites:
-- There are 3 types of models we are using for enhancing operations in banks:
-- **All are very crucial in functioning of banks**
-  
-- 1st is for business loan analytics(the parameters for giving loans are very different than personal loans)
-  parameters considered for business loans ( Icome tax returns, audited balance sheets ):
- - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
- - [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
-  
-- 2nd is for personal loan analytics ( the paramaters here are given in below pdf)
-- [Personal loan cibil score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
-  
-- 3rd is for email classification and categorization(sent to respective departments) so that customers are priorotized and their queries are always resolved.
-
 
 ### 1. Data Input and Preprocessing
 - Azure Blob storage is for storing documents
