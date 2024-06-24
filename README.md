@@ -156,20 +156,20 @@ Walter White uniquely combines multiple functionalities into a single platform, 
 
 Security is a critical component of the Walter White Dashboard. We are leveraging several security measures and best practices to ensure the confidentiality, integrity, and availability of our system. Below are the key security considerations implemented in our project:
 
-### Authentication and Authorization
+### 1) Authentication and Authorization
 
 - **Microsoft Authentication Library (MSAL)**: We use MSAL for secure user authentication and authorization. This allows users to authenticate using Azure Active Directory (Azure AD), ensuring that only authorized personnel can access sensitive information.
   - [Authentication with Azure AD and React](https://adrianhynes.medium.com/authentication-with-azure-ad-and-react-ced9a829e083)
   - [Secure Your React.js Web Application with Azure AD Authentication Using MSAL Library](https://medium.com/@isuruariyarathna2k00/secure-your-react-js-web-application-with-azure-ad-authentication-using-masl-library-7f578c65f209)
 
-### Multi-Factor Authentication (MFA)
+### 2) Multi-Factor Authentication (MFA)
 
 - **Multi-Factor Authentication (MFA)**: We implement MFA to add an extra layer of security. Options include:
   - **Email OTP**: Sending a one-time password to the user's registered email address.
   - **Microsoft Authenticator App**: Using the app for code generation, which must be entered along with the password.
   - [Azure Multi-Factor Authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks)
 
-### Role-Based Access Control (RBAC)
+### 3) Role-Based Access Control (RBAC)
 
 - **Role-Based Access Control (RBAC)**: Different roles have different levels of access:
   - **Bank Manager**: Full access to all emails, chat records, and loan applications.
@@ -177,21 +177,21 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
   - **Customers**: Access only to their own emails and loan applications.
   -  [Azure Role-Based Access Control](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
 
-### Data Security
+### 4) Data Security
 
 - **Azure SQL Database**: Storing data securely using Azure SQL Database with encryption at rest and in transit.
 - **Azure Blob Storage**: Securely storing documents and forms in Azure Blob Storage.
 
-### Secure Data Transfer
+### 5) Secure Data Transfer
 
 - **HTTPS**: All data exchanges between the client and server are encrypted using HTTPS to prevent eavesdropping and man-in-the-middle attacks.
 
-### Auditing and Monitoring
+### 6) Auditing and Monitoring
 
 - **Audit Logs**: Implementing detailed audit logs to monitor access and changes to sensitive information. This helps in tracking and identifying any unauthorized access or modifications.
 - **Azure Security Center**: Using Azure Security Center to continuously monitor and improve the security posture of our resources.
 
-### Verification of Auditing Agencies
+### 7) Verification of Auditing Agencies
 
 - **Auditing Agency Verification**: Ensuring that balance sheets and financial documents are verified by reputable auditing agencies. This prevents fraud and enhances the trustworthiness of submitted documents.
 
