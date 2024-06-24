@@ -53,10 +53,13 @@ This model categorizes and classifies emails sent to respective departments so t
 
 ################
 ## Detailed Workflow
+**Please follow the numbers in diagram , their descriptions are given below accordingly**
+**Please follow the numbers in diagram , their descriptions are given below accordingly**
+**Please follow the numbers in diagram , their descriptions are given below accordingly**
+
 
 ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/9be64272-572e-46c5-be3b-5b1a14a0dfac)
 
-**Please follow the numbers in diagram , their descriptions are given below accordingly**
 
 ### 1. Data Input and Preprocessing
 - Azure Blob storage is for storing documents
