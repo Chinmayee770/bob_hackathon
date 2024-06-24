@@ -93,19 +93,19 @@ This model categorizes and classifies emails sent to respective departments so t
 - **Azure Cognitive Services:** Ro Analyze news sentiment and searches for pending legal cases on companies.
   - **Reference: on how sentiment analysis is done** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
 
-### 4. Auditing Agency Verification
+### 4. Auditing Agency Verification: (Check the reliability of the agency who audited the data)
 - **Verification Process:** Ensures that all financial and external data meet required standards and also if the auditing agencies are proper or not who audited all this financial data.
 - **Reference for why its necessary??:** [Satyam Scam Overview](https://www.5paisa.com/blog/satyam-scam)
 
-### 5. Lang-Chain for Database Retrieval and analytics
+### 5. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
 - **Reference for how its done:** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
 - **reference 2 for how its going to be done:** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
   
 ### 6. Loan Approval Process
 - **Verification:** Checks if financial ratios, external data, and audit verifications meet thresholds.
-- **Azure Functions:** Implements logic for threshold checks and validation.
-- **Approval:** Grants loan approval if all checks are satisfactory.
+- **Azure Functions:** Logic is implemented for threshold checks and validation.
+- **Approval:** Final loan approval if all checks are satisfactory (input pdfs to input data is verified and final loan is approved).
 
 ### 7. Customer (Non-Businesses) Credit Score Calculation
 - **Azure Machine Learning:** Will use an improved ML model to calculate credit scores for non-business customers.
