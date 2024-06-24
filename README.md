@@ -152,25 +152,6 @@ Walter White uniquely combines multiple functionalities into a single platform, 
 - **Humane Chatbot Experience:** Enhances the user experience with a conversational AI interface.
 
 ---
-
-## Security Considerations
-
-### Data Security
-- **Advanced Encryption:** All sensitive data is encrypted both in transit and at rest using industry-standard encryption protocols.
-- **Access Control:** Implements Azure Multi-Factor Authentication (MFA) and Role-Based Access Control (RBAC) to ensure that data access is restricted to authorized personnel only.
-  - **References:**
-    - [Azure Role-Based Access Control](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
-    - [Azure Multi-Factor Authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks)
-
-### Regular Security Updates
-- **Automated Update Systems:** Utilizes automated systems for timely software updates and security patches to protect against emerging threats.
-- **Testing Environment:** Deploys updates in a controlled testing environment to ensure they do not disrupt existing functionalities before full deployment.
-
-### Performance Monitoring
-- **Real-Time Monitoring:** Continuously monitors system performance and health to proactively identify and resolve issues.
-- **Security Audits:** Conducts regular security audits and compliance checks to ensure the integrity and security of the platform.
-
-
 ## Security Considerations
 
 Security is a critical component of the Walter White Dashboard. We are leveraging several security measures and best practices to ensure the confidentiality, integrity, and availability of our system. Below are the key security considerations implemented in our project:
@@ -186,6 +167,7 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 - **Multi-Factor Authentication (MFA)**: We implement MFA to add an extra layer of security. Options include:
   - **Email OTP**: Sending a one-time password to the user's registered email address.
   - **Microsoft Authenticator App**: Using the app for code generation, which must be entered along with the password.
+  - [Azure Multi-Factor Authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks)
 
 ### Role-Based Access Control (RBAC)
 
@@ -193,6 +175,7 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
   - **Bank Manager**: Full access to all emails, chat records, and loan applications.
   - **Employees**: Limited access to view emails assigned to them and approve/decline loan applications without editing the database.
   - **Customers**: Access only to their own emails and loan applications.
+  -  [Azure Role-Based Access Control](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
 
 ### Data Security
 
@@ -213,6 +196,8 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 - **Auditing Agency Verification**: Ensuring that balance sheets and financial documents are verified by reputable auditing agencies. This prevents fraud and enhances the trustworthiness of submitted documents.
 
 By implementing these comprehensive security measures, we ensure that our system is robust against various security threats and complies with industry standards for data protection and privacy.
+
+
 
 ---
 ## Tech Stack
