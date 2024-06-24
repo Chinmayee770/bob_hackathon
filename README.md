@@ -56,18 +56,18 @@ This model categorizes and classifies emails sent to respective departments so t
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
+- For removing any confusion before we start :
+ - Azure Blob storage is for storing documents.
+- Azure sql database is for storing structured information from documents and inputs.
+- Inputs can be through ocr , csvs and pdfs and even keyboard inputs for making it easy for customers to access the dashboard
 
 
 ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/9be64272-572e-46c5-be3b-5b1a14a0dfac)
 
 
 ### 1. Data Input and Preprocessing
-- Azure Blob storage is for storing documents
-- Azure sql database is for storing structured information
-- Inputs can be through ocr , csvs and pdfs and even keyboard inputs for making it easy for customers to access the dashboard
   
-**3 Input Types**
-**a)OCR using Azure Form Recognizer:**
+** a)OCR using Azure Form Recognizer:**
 - **Azure Form Recognizer:** Extracts structured data from scanned documents(Audited balance sheet pdfs,tax returns pdfs, cibil score pdfs) and forms.
 - **Azure Functions:** Processes the extracted data and stores it in the database (blob storage)
   - **Reference: On how it will be implemented:** [Introduction to Azure Form Recognizer](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/)
