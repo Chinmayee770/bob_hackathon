@@ -33,6 +33,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
 ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/9be64272-572e-46c5-be3b-5b1a14a0dfac)
 
+**Please follow the numbers in diagram , their descriptions are given below accordingly**
+
 
 - Azure Blob storage is for storing documents
 - Azure sql database is for storing structured information
