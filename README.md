@@ -185,7 +185,7 @@ By implementing these comprehensive security measures, we ensure that our system
 
 ### Backend
 - **Node JS:** For building scalable server-side applications.
-- **Flask:** For developing RESTful APIs and handling backend logic.
+- **Flask:** For developing RESTful APIs and handling backend logic and also for integrating azure tools aswell as machine learning and gen ai
 
 ### Machine Learning and AI
 - **Azure Machine Learning:** For building and deploying machine learning models.
