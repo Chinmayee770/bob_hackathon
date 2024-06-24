@@ -27,6 +27,74 @@ The banking industry faces significant challenges in operational efficiency, par
 ### Overview
 The Walter White dashboard integrates various Azure services and machine learning models to automate and streamline banking operations. Here’s a detailed breakdown of how each component functions:
 
+
+################
+## Detailed Workflow
+
+Azure Blob storage is for storing documents
+Azure sql database is for storing structured information
+
+### 1. Data Input and Preprocessing
+**a)Excel Sheets:**
+- **Azure Blob Storage:** Business balance sheets (audited) in Excel format.Store the uploaded Excel files.
+- **Azure Functions:** Triggered when a new file is uploaded to Blob Storage.
+  - **Action:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
+  - **Reference:** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
+
+**b)OCR using Azure Form Recognizer:**
+- **Azure Form Recognizer:** Extracts structured data from scanned documents(Audited balance sheet pdfs,tax returns pdfs, cibil score pdfs) and forms.
+- **Azure Functions:** Processes the extracted data and stores it in the database (blob storage)
+  - **Reference:** [Introduction to Azure Form Recognizer](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/)
+
+**c)Direct Keyboard Inputs:**
+- **Web Interface:** Provides forms for users to input data manually.
+- **Azure Functions:** Handles form submissions and updates the database accordingly.
+
+### 2. Financial Ratio Calculation
+- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.
+  - **Reference:** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
+
+### 3. External Data Integration
+- **Azure Logic Apps:** Automates fetching news articles related to businesses using a News API.
+- **Azure Cognitive Services:** Analyzes news sentiment and searches for pending legal cases on companies.
+  - **Reference:** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
+
+### 4. Auditing Agency Verification
+- **Verification Process:** Ensures that all financial and external data meet required standards.
+  - **Reference:** [Satyam Scam Overview](https://www.5paisa.com/blog/satyam-scam)
+
+### 5. Data Sorting/Analysis/Querying
+- **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
+  - **Reference:** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
+
+### 6. Loan Approval Process
+- **Verification:** Checks if financial ratios, external data, and audit verifications meet thresholds.
+- **Azure Functions:** Implements logic for threshold checks and validation.
+- **Approval:** Grants loan approval if all checks are satisfactory.
+  - **Reference:** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
+
+### 7. Customer (Non-Businesses) Credit Score Calculation
+- **Azure Machine Learning:** Uses an improved ML model to calculate credit scores for non-business customers.
+  - **Integration with Step 6:** Uses customer data processed in steps 1-3 to calculate the credit score and validate during the loan approval process.
+  - **Reference:** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
+
+### 8. Email Classification and Response
+- **Azure Cognitive Services:** Classifies incoming emails based on content and keywords.
+- **Azure Functions:** Generates and sends automated responses using Generative AI.
+  - **Integration with Step 1:** As part of the data preprocessing, incoming emails are processed and categorized.
+  - **Integration with Step 6:** Automated responses and communications during the loan approval process and other customer interactions.
+  - **Reference:** [Python Gmail Auto Responder using ChatGPT](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
+
+## Centralized Dashboard
+- **Overview:** A centralized dashboard for monitoring and managing the entire process, providing a unified interface for data access and control.
+- All the processed information, including department-wise email classification, financial ratios, company reputation, agency/audit check, business loan status, and personal loan status, is integrated into a centralized dashboard.
+- This dashboard provides a comprehensive view for decision-makers to approve loans, respond to emails, and perform other critical operations efficiently.
+  **Question/Query on Data:**
+Users (bankers) can query or pose questions about data through the centralized dashboard, making the decision-making process more interactive and data-driven.
+**Data Chat Gen AI (Data Analytics):**
+Data analytics is facilitated through AI to provide insights and trends.
+
+#############
 ### 1. Data Collection and Preprocessing
 - **Input:** Business balance sheets (audited) in Excel format.
 - **Azure Blob Storage:** Stores the uploaded Excel files.
