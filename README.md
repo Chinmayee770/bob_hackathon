@@ -56,6 +56,8 @@ This model categorizes and classifies emails sent to respective departments so t
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
+
+
 - For removing any confusion before we start :
  - Azure Blob storage is for storing documents.
 - Azure sql database is for storing structured information from documents and inputs.
