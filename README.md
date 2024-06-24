@@ -31,11 +31,12 @@ The Walter White dashboard integrates various Azure services and machine learnin
 ################
 ## Detailed Workflow
 
-Azure Blob storage is for storing documents
-Azure sql database is for storing structured information
+- Azure Blob storage is for storing documents
+- Azure sql database is for storing structured information
 
 ### 1. Data Input and Preprocessing
 **Different Types of Inputs**
+
 **a)Excel Sheets:**
 - **Azure Blob Storage:** Business balance sheets (audited) in Excel format.Store the uploaded Excel files.
 - **Azure Functions:** Triggered when a new file is uploaded to Blob Storage.
