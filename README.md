@@ -84,12 +84,12 @@ This model categorizes and classifies emails sent to respective departments so t
   
 ### 2. Financial Ratio Calculation
 - **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.(Gen ai for calculations is not reliable )
-  - **Reference:** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
+  - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
 
 ### 3. External Data Integration
 - **Azure Logic Apps:** Automates fetching news articles related to businesses using a News API.
 - **Azure Cognitive Services:** Analyzes news sentiment and searches for pending legal cases on companies.
-  - **Reference:** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
+  - **Reference: on how sentiment analysis is done** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
 
 ### 4. Auditing Agency Verification
 - **Verification Process:** Ensures that all financial and external data meet required standards.
@@ -104,12 +104,11 @@ This model categorizes and classifies emails sent to respective departments so t
 - **Verification:** Checks if financial ratios, external data, and audit verifications meet thresholds.
 - **Azure Functions:** Implements logic for threshold checks and validation.
 - **Approval:** Grants loan approval if all checks are satisfactory.
- - **Reference:** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
 
 ### 7. Customer (Non-Businesses) Credit Score Calculation
-- **Azure Machine Learning:** Uses an improved ML model to calculate credit scores for non-business customers.
+- **Azure Machine Learning:** Will use an improved ML model to calculate credit scores for non-business customers.
   - **Integration with Step 6:** Uses customer data processed in steps 1-3 to calculate the credit score and validate during the loan approval process.
-  - **Reference:** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
+  - **Reference model** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
 
 ### 8. Email Classification and Response
 - **Azure Cognitive Services:** Classifies incoming emails based on content and keywords.
