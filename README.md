@@ -43,19 +43,19 @@ The Walter White dashboard integrates various Azure services and machine learnin
 **3 Input Types**
 
 **a)Excel Sheets:**
-- **Azure Blob Storage:** Business balance sheets (audited) in Excel format.Store the uploaded Excel files.
+- **Azure Blob Storage:** Business balance sheets (audited) in Excel format.
+- Store the uploaded Excel files.
 - **Azure Functions:** Triggered when a new file is uploaded to Blob Storage.
   - **Action:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
   - **Reference:** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
-
 **b)OCR using Azure Form Recognizer:**
 - **Azure Form Recognizer:** Extracts structured data from scanned documents(Audited balance sheet pdfs,tax returns pdfs, cibil score pdfs) and forms.
 - **Azure Functions:** Processes the extracted data and stores it in the database (blob storage)
   - **Reference:** [Introduction to Azure Form Recognizer](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/)
-
 **c)Direct Keyboard Inputs:**
 - **Web Interface:** Provides forms for users to input data manually.
 - **Azure Functions:** Handles form submissions and updates the database accordingly.
+  
 
 ### 2. Financial Ratio Calculation
 - **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.(Gen ai for calculations is not reliable )
