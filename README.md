@@ -74,27 +74,27 @@ This model categorizes and classifies emails sent to respective departments so t
   - **Reference: On how it will be implemented:** [Introduction to Azure Form Recognizer](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/)
  
 **b)Excel Sheets:**
-- **Azure Blob Storage:** Business balance sheets (audited) in Excel format.
-- Store the uploaded Excel files.
-- **Azure Functions:** Triggered when a new file is uploaded to Blob Storage.
-  - **Action:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
+-  Business balance sheets (audited)  in Excel format will be stored on **Azure Blob Storage:**.
+- **Azure Functions:**  is triggered when a new file is uploaded to Blob Storage.
+  - **Action: taken:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
   - **Reference:** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
     
 **c)Direct Keyboard Inputs:**
 - **Web Interface:** Provides forms for users to input data manually.
 - **Azure Functions:** Handles form submissions and updates the database accordingly.
+- all forms have been provided in prerequisites
   
 ### 2. Financial Ratio Calculation
 - **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.(Gen ai for calculations is not reliable )
   - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
 
 ### 3. External Data Integration
-- **Azure Logic Apps:** Automates fetching news articles related to businesses using a News API.
-- **Azure Cognitive Services:** Analyzes news sentiment and searches for pending legal cases on companies.
+- **Azure Logic Apps:** Automates fetching of news articles related to businesses using a News API.
+- **Azure Cognitive Services:** Ro Analyze news sentiment and searches for pending legal cases on companies.
   - **Reference: on how sentiment analysis is done** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
 
 ### 4. Auditing Agency Verification
-- **Verification Process:** Ensures that all financial and external data meet required standards.
+- **Verification Process:** Ensures that all financial and external data meet required standards and also if the auditing agencies are proper or not who audited all this financial data.
 - **Reference for why its necessary??:** [Satyam Scam Overview](https://www.5paisa.com/blog/satyam-scam)
 
 ### 5. Lang-Chain for Database Retrieval and analytics
