@@ -31,7 +31,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
 ## Prerequisites
 
-There are 3 types of models we are using for enhancing operations in banks:
+There are 3 types of operations we are  enhancing  in banks:
+
 **All are very crucial in functioning of banks**
 
 ### 1. Business Loan Analytics
