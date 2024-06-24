@@ -51,7 +51,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
   - **Reference for how its done:** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
   - **reference 2 for how its going to be done:** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
-  - https://www.youtube.com/watch?v=ZIfzpmO8MdA
+    
 
 ### 6. Loan Approval Process
 - **Verification:** Checks if financial ratios, external data, and audit verifications meet thresholds.
