@@ -211,8 +211,9 @@ By implementing these comprehensive security measures, we ensure that our system
 
 ### Machine Learning and AI
 - **Azure Machine Learning:** For building and deploying machine learning models.
-- **Azure Cognitive Services:** For natural language processing, sentiment analysis, and other AI-driven tasks.
+- **Azure Cognitive Services:** For natural language processing, sentiment analysis,email classification,external data integration and other AI-driven tasks.
 - **Lang-Chain:** For efficient database retrieval and analytics.
+- **Azure Generative AI:** for doing analytics ,for responding to emails etc.
 
 ### Data Storage and Processing
 - **Azure Blob Storage:** For storing uploaded files and large datasets.
