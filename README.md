@@ -71,7 +71,7 @@ This model categorizes and classifies emails sent to respective departments so t
 ** a)OCR using Azure Form Recognizer:**
 - **Azure Form Recognizer:** Extracts structured data from scanned documents(Audited balance sheet pdfs,tax returns pdfs, cibil score pdfs) and forms.
 - **Azure Functions:** Processes the extracted data and stores it in the database (blob storage)
-  - **Reference: On how it will be implemented:** [Introduction to Azure Form Recognizer](https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/)
+  - **Reference: On how it will be implemented:** [Introduction to Azure Form Recognizer]([https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/](https://medium.com/microsoftazure/extracting-form-data-to-json-excel-pandas-with-azure-form-recognizer-160488a2d11e))
  
 **b)Excel Sheets:**
 -  Business balance sheets (audited)  in Excel format will be stored on **Azure Blob Storage:**.
