@@ -68,18 +68,18 @@ This model categorizes and classifies emails sent to respective departments so t
 
 ### 1. Data Input and Preprocessing
   
-** a)OCR using Azure Form Recognizer:**
+**A)OCR using Azure Form Recognizer:**
 - **Azure Form Recognizer:** Extracts structured data from scanned documents(Audited balance sheet pdfs,tax returns pdfs, cibil score pdfs) and forms.
 - **Azure Functions:** Processes the extracted data and stores it in the database (blob storage)
-  - **Reference: On how it will be implemented:** [Introduction to Azure Form Recognizer]([https://learn.microsoft.com/en-us/azure/applied-ai-services/form-recognizer/](https://medium.com/microsoftazure/extracting-form-data-to-json-excel-pandas-with-azure-form-recognizer-160488a2d11e))
+  - **Reference: On how it will be implemented:** [Introduction to Azure Form Recognizer](https://medium.com/microsoftazure/extracting-form-data-to-json-excel-pandas-with-azure-form-recognizer-160488a2d11e)
  
-**b)Excel Sheets:**
+**B)Excel Sheets:**
 -  Business balance sheets (audited)  in Excel format will be stored on **Azure Blob Storage:**.
 - **Azure Functions:**  is triggered when a new file is uploaded to Blob Storage.
   - **Action: taken:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
   - **Reference:** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
     
-**c)Direct Keyboard Inputs:**
+**C)Direct Keyboard Inputs:**
 - **Web Interface:** Provides forms for users to input data manually.
 - **Azure Functions:** Handles form submissions and updates the database accordingly.
 - all forms have been provided in prerequisites
@@ -211,7 +211,6 @@ By implementing these comprehensive security measures, we ensure that our system
 - **React JS:** For building a dynamic and responsive user interface.
 
 ### Backend
-- **Node JS:** For building scalable server-side applications.
 - **Flask:** For developing RESTful APIs and handling backend logic and also for integrating azure tools aswell as machine learning and gen ai
 
 ### Machine Learning and AI
