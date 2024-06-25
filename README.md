@@ -140,21 +140,34 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 ![WhatsApp Image 2024-06-22 at 2 22 42 AM (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/0b0be6ab-66bb-4454-9c22-b2e57aa5310d)
 
 ---
-## Uniqueness of Approach
+## Tech Stack
 
-### Comprehensive Automation
-Walter White uniquely combines multiple functionalities into a single platform, including:
-- **Customer Communication:** Streamlines interactions with customers through AI-driven email responses and automated workflows.
-- **Internal Workflow Management:** Automates internal processes, reducing the workload on employees and increasing efficiency.
-- **Unified Dashboard:** Provides a centralized interface for all banking operations, enhancing user experience and productivity.
+![Tech_Stack](https://github.com/ANUJT65/bob_hackathon/assets/123918593/2bb6736b-6088-408f-b53b-15dacd03fe3c)
 
-### Integration of Generative AI
-- **Textual Queries:** Utilizes Generative AI for answering textual queries, providing intelligent insights, and automating decision-making processes.
-- **Data Analytics:** Applies AI for data classification, analysis, and generating actionable insights.
+### Frontend
+- **React JS:** For building a dynamic and responsive user interface.
 
-### Reduced Training Overhead
-- **User-Friendly Interface:** Simplifies user interactions with the system, reducing the need for extensive employee training.
-- **Humane Chatbot Experience:** Enhances the user experience with a conversational AI interface.
+### Backend
+- **Flask:** For developing RESTful APIs and handling backend logic and also for integrating azure tools aswell as machine learning and gen ai
+
+### Machine Learning and AI
+- **Azure Machine Learning:** For building and deploying machine learning models.
+- **Azure Cognitive Services:** For natural language processing, sentiment analysis,email classification,external data integration and other AI-driven tasks.
+- **Lang-Chain:** For efficient database retrieval and analytics.
+- **Azure Generative AI:** for doing analytics ,for responding to emails etc.
+
+### Data Storage and Processing
+- **Azure Blob Storage:** For storing uploaded files and large datasets.
+- **Azure SQL Database:** For storing and querying structured data.
+- **Azure Data Factory:** For orchestrating data workflows and processing.
+
+### Automation and Integration
+- **Azure Functions:** For running serverless code triggered by events such as file uploads or HTTP requests.
+- **Azure Logic Apps:** For automating workflows and integrating with external services.
+
+### Security
+- **Azure Multi-Factor Authentication (MFA):** For securing user access.
+- **Role-Based Access Control (RBAC):** For managing permissions and access levels.
 
 ---
 ## Security Considerations
@@ -205,29 +218,3 @@ By implementing these comprehensive security measures, we ensure that our system
 
 
 ---
-## Tech Stack
-
-### Frontend
-- **React JS:** For building a dynamic and responsive user interface.
-
-### Backend
-- **Flask:** For developing RESTful APIs and handling backend logic and also for integrating azure tools aswell as machine learning and gen ai
-
-### Machine Learning and AI
-- **Azure Machine Learning:** For building and deploying machine learning models.
-- **Azure Cognitive Services:** For natural language processing, sentiment analysis,email classification,external data integration and other AI-driven tasks.
-- **Lang-Chain:** For efficient database retrieval and analytics.
-- **Azure Generative AI:** for doing analytics ,for responding to emails etc.
-
-### Data Storage and Processing
-- **Azure Blob Storage:** For storing uploaded files and large datasets.
-- **Azure SQL Database:** For storing and querying structured data.
-- **Azure Data Factory:** For orchestrating data workflows and processing.
-
-### Automation and Integration
-- **Azure Functions:** For running serverless code triggered by events such as file uploads or HTTP requests.
-- **Azure Logic Apps:** For automating workflows and integrating with external services.
-
-### Security
-- **Azure Multi-Factor Authentication (MFA):** For securing user access.
-- **Role-Based Access Control (RBAC):** For managing permissions and access levels.
