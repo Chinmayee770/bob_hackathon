@@ -15,11 +15,12 @@
 
 The banking industry faces significant challenges in operational efficiency, particularly in repetitive administrative tasks and lengthy loan approval processes. Our project, Walter White, aims to address these challenges by creating a centralized dashboard that leverages Generative AI and Machine Learning.
  The main goals of the Walter White dashboard are to:
-
+ 
+- **Streamline Loan Approvals:** Automate the loan approval process, reducing approval time from weeks to days(reducing the approval time for business loan approvals which take weeks, and also reducing the personal loan approvals which take upto some days).
 - **Retrieve and Analyze Customer Data:** Automatically fetch, store, and process customer data to support informed decision-making.
 - **Perform Repetitive Calculations:** Automate financial calculations and metrics to reduce manual effort and minimize errors.
 - **Categorize and Respond to Emails:** Use AI to classify incoming emails and generate appropriate responses, improving communication efficiency.
-- **Streamline Loan Approvals:** Automate the loan approval process, reducing approval time from weeks to days.
+
 
 ---
 
