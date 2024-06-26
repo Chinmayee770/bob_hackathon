@@ -136,24 +136,29 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 ---
 ## IMPLEMENTATION
 
-![Customer](https://github.com/ANUJT65/bob_hackathon/assets/123918593/3652dca0-5b93-4c42-9f94-38526886873b)
+![Wireframe - 1](https://github.com/ANUJT65/bob_hackathon/assets/123918593/cd488880-7d46-4d61-b76a-0967e15898a4)
 
-![WhatsApp Image 2024-06-22 at 2 22 43 AM](https://github.com/ANUJT65/bob_hackathon/assets/123918593/d53f7199-56ef-4fd0-b52e-c159ce729ad7)
-![WhatsApp Image 2024-06-22 at 2 22 42 AM](https://github.com/ANUJT65/bob_hackathon/assets/123918593/91f32f14-1511-472a-9518-0f815c0b7035)
-![WhatsApp Image 2024-06-22 at 2 22 42 AM (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/0b0be6ab-66bb-4454-9c22-b2e57aa5310d)
+## Customer side:
 
-Login:
+![Wireframe - 6](https://github.com/ANUJT65/bob_hackathon/assets/123918593/c4381e5d-7989-43ea-83af-2659ec15d6cf)
 
-![Wireframe - 1](https://github.com/ANUJT65/bob_hackathon/assets/123918593/cd488880-7d46-4d61-b76a-0967e15898a4)![Wireframe - 8](https://github.com/ANUJT65/bob_hackathon/assets/123918593/c1e4bbd8-6c22-4929-a2d2-4712aac779f2)
-Customer side:
-![Wireframe - 9](https://github.com/ANUJT65/bob_hackathon/assets/123918593/38f0b253-e3a3-458e-b6fd-79aaf58aa874)
-![Wireframe - 6](https://github.com/ANUJT65/bob_hackathon/assets/123918593/c4381e5d-7989-43ea-83af-2659ec15d6cf)![Wireframe - 5](https://github.com/ANUJT65/bob_hackathon/assets/123918593/e5dfce72-5e7a-4970-8332-23e37c652210)
+![Wireframe - 5](https://github.com/ANUJT65/bob_hackathon/assets/123918593/e5dfce72-5e7a-4970-8332-23e37c652210)
 
 
 
-Banker Side:
-![Wireframe - 2](https://github.com/ANUJT65/bob_hackathon/assets/123918593/bd72c41d-ef22-4a80-a86a-936aee510497)![Wireframe - 3](https://github.com/ANUJT65/bob_hackathon/assets/123918593/128c5c3c-966d-449d-859f-1ea5e7d6ba1b)
+## Banker Side:
+![Wireframe - 2](https://github.com/ANUJT65/bob_hackathon/assets/123918593/bd72c41d-ef22-4a80-a86a-936aee510497)
+
+![Wireframe - 3](https://github.com/ANUJT65/bob_hackathon/assets/123918593/128c5c3c-966d-449d-859f-1ea5e7d6ba1b)
+
 ![Wireframe - 4](https://github.com/ANUJT65/bob_hackathon/assets/123918593/df72e034-e677-4f6d-862c-0b1d517d690f)
+
+### Easy Login:
+
+
+![Wireframe - 8](https://github.com/ANUJT65/bob_hackathon/assets/123918593/c1e4bbd8-6c22-4929-a2d2-4712aac779f2)
+
+![Wireframe - 9](https://github.com/ANUJT65/bob_hackathon/assets/123918593/38f0b253-e3a3-458e-b6fd-79aaf58aa874)
 
 
 ---
