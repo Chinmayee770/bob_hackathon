@@ -167,7 +167,8 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 ![Wireframe - 4](https://github.com/ANUJT65/bob_hackathon/assets/123918593/df72e034-e677-4f6d-862c-0b1d517d690f)
 #### Desc:
 - This is one of our more innovative way of using generative ai where you could query the  database in natural language and get access to **read only** information
-- Here you could also do analytics of the attached document or retrieved documents.
+- Here you could also do analytics of the attached document or retrieved documents using pandas agent and azure gen ai whose basic implementation is provided in 
+  this repo.
 - 
 ### Easy Login:
 
