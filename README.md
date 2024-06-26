@@ -286,6 +286,10 @@ By implementing these comprehensive security measures, we ensure that our system
 5. **Overall Excellence:**
    - **Advantage:** Combines customer connection, automation, AI, and analytics into one platform.
    - **Benefit:** Addresses multiple business needs efficiently.
+  
+### User Experience:
+
+![user_exp](https://github.com/ANUJT65/bob_hackathon/assets/123918593/fd308f68-1c37-4417-97b8-fb7a6b895986)
 
 
 ### Scalability
