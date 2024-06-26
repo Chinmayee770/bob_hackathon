@@ -1,6 +1,6 @@
 # Bank Of Baroda Hackathon
 
-# Walter White: Generative AI-Powered Dashboard for Enhanced Operations and Loan Approvals
+# Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
 
 **Team Cyber Wardens**  
 **College: Vishwakarma Institute of Technology**  
