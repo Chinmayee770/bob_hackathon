@@ -42,8 +42,8 @@ The parameters considered for personal loans are detailed in the following PDF:
 Scalable Machine learning models categorizes and classify emails sent to respective departments so that customers are prioritized and their queries are always resolved.
 -[Categories Considered]()
 
-### 3.Analytics and repititive calculations 
-Using Generative AI and varius mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
+### 3.Analytics and repetitive calculations 
+Using Generative AI and various mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
 
 ## Methodology
 
