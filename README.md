@@ -59,10 +59,10 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - 1) Inputs can be through ocr , csvs and pdfs and even keyboard inputs for making it easy for customers to access the dashboard (Customer is king as they always say )
  - 2) Azure Blob storage is for storing documents.
 - 3) Azure sql database is for storing structured information from documents and inputs.
-### 4)
-- **Please be free to zoom in to image and follow the numbers in diagram, their descriptions are given below accordingly**
-- **Please be free to zoom in to image and follow the numbers in diagram, their descriptions are given below accordingly**
-- **Please be free to zoom in to image and follow the numbers in diagram, their descriptions are given below accordingly**
+### 
+- **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
+- **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
+- **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
 
  ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/a537a68d-79f3-42a0-ad0a-7b90a06df387)
 
@@ -87,7 +87,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - all forms have been provided in prerequisites
   
 ### 2. Financial Ratio Calculation
-- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.(Gen ai for calculations is not reliable )
+- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.**(Gen ai for banking calculations is not reliable but we could do repititive 
+                          formulations using ai )**
   - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
 
 ### 3. External Data Integration
@@ -217,8 +218,8 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 ### 1) Authentication and Authorization
 
 - **Microsoft Authentication Library (MSAL)**: We use MSAL for secure user authentication and authorization. This allows users to authenticate using Azure Active Directory (Azure AD), ensuring that only authorized personnel can access sensitive information.
-  - [Authentication with Azure AD and React](https://adrianhynes.medium.com/authentication-with-azure-ad-and-react-ced9a829e083)
-  - [Secure Your React.js Web Application with Azure AD Authentication Using MSAL Library](https://medium.com/@isuruariyarathna2k00/secure-your-react-js-web-application-with-azure-ad-authentication-using-masl-library-7f578c65f209)
+  - [Authentication with Azure AD and React[Medium]](https://adrianhynes.medium.com/authentication-with-azure-ad-and-react-ced9a829e083)
+  - [Secure Your React.js Web Application with Azure AD Authentication Using MSAL Library [Medium]](https://medium.com/@isuruariyarathna2k00/secure-your-react-js-web-application-with-azure-ad-authentication-using-masl-library-7f578c65f209)
 
 ### 2) Multi-Factor Authentication (MFA)
 
@@ -226,6 +227,10 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
   - **Email OTP**: Sending a one-time password to the user's registered email address.
   - **Microsoft Authenticator App**: Using the app for code generation, which must be entered along with the password.
   - [Azure Multi-Factor Authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks)
+  - Image source[medium]: **The goal is to protect your organization while also providing the right levels of access to the users who need it.**
+  - ![mfa](https://github.com/ANUJT65/bob_hackathon/assets/123918593/515e7fe0-73e2-4bb4-aff0-94290e1448d4)
+
+ 
 
 ### 3) Role-Based Access Control (RBAC)
 
@@ -233,7 +238,9 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
   - **Bank Manager**: Full access to all emails, chat records, and loan applications.
   - **Employees**: Limited access to view emails assigned to them and approve/decline loan applications without editing the database.
   - **Customers**: Access only to their own emails and loan applications.
-  -  [Azure Role-Based Access Control](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
+  - [Azure Role-Based Access Contro[Medium more detailed]](https://medium.com/@kenny_Cloud_Architect/lets-talk-about-azure-ad-rbac-2070182e3424)
+  -  [Azure Role-Based Access Contro[Azure]l](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
+    
 
 ### 4) Data Security
 
