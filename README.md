@@ -141,27 +141,31 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 ## Customer side:
 
 ![Wireframe - 6](https://github.com/ANUJT65/bob_hackathon/assets/123918593/c4381e5d-7989-43ea-83af-2659ec15d6cf)
+## Desc:
 - As you can see in image, customers just have to attach their financial documents and azure ocr will do the work for them of filling the forms aswell as form recognition .
 - This really improves engagement of users and makes the financial process less stressful.
 
 ![Wireframe - 5](https://github.com/ANUJT65/bob_hackathon/assets/123918593/e5dfce72-5e7a-4970-8332-23e37c652210)
+## Desc:
 - This is the centralized dashboard for customer side where they can track their applications and whether they are approved or not.
--  Here you could see attachments necessary for businesses / customers which are all stored in bank database and automated calculations(balance sheets) are done 
-   ensuring that  customers dont have to deal with these.
+-  Here you could see attachments necessary for businesses / customers which are all stored in bank database with automated calculations(specially balance sheets) 
+    ensuring that customers dont have to deal with these.
 
 
 
 ## Banker Side:
 ![Wireframe - 2](https://github.com/ANUJT65/bob_hackathon/assets/123918593/bd72c41d-ef22-4a80-a86a-936aee510497)
+## Desc:
 - We can see how applications are categorised using ml model and  even a loan approval score is calculated so that they could be approved or declined.
 - Even mails could be sent as shown below to customers through the dashboard itself to user on the basis of risk,
   like much more interest rate for risky users or rejection mails etc
 
 ![Wireframe - 3](https://github.com/ANUJT65/bob_hackathon/assets/123918593/128c5c3c-966d-449d-859f-1ea5e7d6ba1b)
+## Desc:
 - Here we could see categorization of incoming emails, which could be handled by respective departments and queries could be solved immediately boosting customer confidence.
 
 ![Wireframe - 4](https://github.com/ANUJT65/bob_hackathon/assets/123918593/df72e034-e677-4f6d-862c-0b1d517d690f)
-##
+#### Desc:
 - This is one of our more innovative way of using generative ai where you could query the  database in natural language and get access to **read only** information
 - Here you could also do analytics of the attached document or retrieved documents.
 - 
@@ -169,7 +173,7 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 
 ![Wireframe - 8](https://github.com/ANUJT65/bob_hackathon/assets/123918593/c1e4bbd8-6c22-4929-a2d2-4712aac779f2)
 ![Wireframe - 9](https://github.com/ANUJT65/bob_hackathon/assets/123918593/38f0b253-e3a3-458e-b6fd-79aaf58aa874)
-
+## Desc:
 - We tried to make the login process for customers as easy as possible through otp but didnt compromise on security, which you will see as follows:
 
 ---
