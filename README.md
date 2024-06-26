@@ -253,6 +253,6 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 
 By implementing these comprehensive security measures, we ensure that our system is robust against various security threats and complies with industry standards for data protection and privacy.
 
-
-
 ---
+
+
