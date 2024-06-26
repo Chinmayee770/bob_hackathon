@@ -29,8 +29,10 @@ The banking industry faces significant challenges in operational efficiency, par
 ### Overview
 The Walter White dashboard integrates various Azure services and machine learning models to automate and streamline banking operations. Here’s a detailed breakdown of how each component functions:
 
+![image](https://github.com/ANUJT65/bob_hackathon/assets/123918593/5ef69718-31ef-4825-b49b-fee883dc110d)
 
-## Prerequisites
+
+## Prerequisites for understanding the project
 
 There are 3 types of operations we are  enhancing  in banks:
 
@@ -64,11 +66,12 @@ This model categorizes and classifies emails sent to respective departments so t
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
 - **Please follow the numbers in diagram, their descriptions are given below accordingly**
 
-![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/9be64272-572e-46c5-be3b-5b1a14a0dfac)
+ ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/a537a68d-79f3-42a0-ad0a-7b90a06df387)
 
 
 ### 1. Data Input and Preprocessing
-  
+ 
+
 **A)OCR using Azure Form Recognizer:**
 - **Azure Form Recognizer:** Extracts structured data from scanned documents(Audited balance sheet pdfs,tax returns pdfs, cibil score pdfs) and forms.
 - **Azure Functions:** Processes the extracted data and stores it in the database (blob storage)
@@ -100,8 +103,8 @@ This model categorizes and classifies emails sent to respective departments so t
 
 ### 5. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
-- **Reference for how its done:** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
-- **reference 2 for how its going to be done:** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
+- **Reference for how its done:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
+- **reference 2 for how its going to be done:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
   
 ### 6. Loan Approval Process
 - **Verification:** Checks if financial ratios, external data, and audit verifications meet thresholds.
@@ -111,14 +114,14 @@ This model categorizes and classifies emails sent to respective departments so t
 ### 7. Customer (Non-Businesses) Credit Score Calculation
 - **Azure Machine Learning:** Will use an improved ML model to calculate credit scores for non-business customers.
   - **Integration with Step 6:** Uses customer data processed in steps 1-3 to calculate the credit score and validate during the loan approval process.
-  - **Reference model** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
+  - **Reference model[git link]** [Credit Score Anomaly Detection](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Credit_ScoreAnamolyDetection.ipynb)
 
 ### 8. Email Classification and Response
 - **Azure Cognitive Services:** Classifies incoming emails based on content and keywords.
 - **Azure Functions:** Generates and sends automated responses using Generative AI.
   - **Integration with Step 1:** As part of the data preprocessing, incoming emails are processed and categorized.
   - **Integration with Step 6:** Automated responses and communications during the loan approval process and other customer interactions.
-  - **Reference:** [Python Gmail Auto Responder using ChatGPT](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
+  - **Reference:[git link]** [Python Gmail Auto Responder using ChatGPT](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
 
 ## Centralized Dashboard
 - **Overview:** A centralized dashboard for monitoring and managing the entire process, providing a unified interface for data access and control.
@@ -127,6 +130,7 @@ This model categorizes and classifies emails sent to respective departments so t
   
 -**Question/Query on Data:**
 Users (bankers) can query or pose questions about data through the centralized dashboard, making the decision-making process more interactive and data-driven.
+
 -**Data Chat Gen AI (Data Analytics):**
 Data analytics is facilitated through AI using langchain and pandas agents to provide insights and trends through a humanised chat bot method.
 
