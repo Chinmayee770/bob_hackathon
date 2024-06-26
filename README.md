@@ -51,7 +51,7 @@ Using Generative AI and varius mathematical methods we are ensuring that analyti
 The Walter White dashboard integrates various Azure services and machine learning models to automate and streamline banking operations. Here’s a detailed breakdown of how each component functions:
 
 ![image](https://github.com/ANUJT65/bob_hackathon/assets/123918593/5ef69718-31ef-4825-b49b-fee883dc110d)
-##--
+
 ## Detailed Workflow
 
 
