@@ -230,13 +230,12 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
   - Image source[medium]: **The goal is to protect your organization while also providing the right levels of access to the users who need it.**
   - ![mfa](https://github.com/ANUJT65/bob_hackathon/assets/123918593/515e7fe0-73e2-4bb4-aff0-94290e1448d4)
 
- 
 
 ### 3) Role-Based Access Control (RBAC)
 
 - **Role-Based Access Control (RBAC)**: Different roles have different levels of access:
   - **Bank Manager**: Full access to all emails, chat records, and loan applications.
-  - **Employees**: Limited access to view emails assigned to them and approve/decline loan applications without editing the database.
+  - **Employees**: Limited access to view emails assigned to them and approve/decline loan applications without editing access to the entire database.
   - **Customers**: Access only to their own emails and loan applications.
   - [Azure Role-Based Access Contro[Medium more detailed]](https://medium.com/@kenny_Cloud_Architect/lets-talk-about-azure-ad-rbac-2070182e3424)
   -  [Azure Role-Based Access Contro[Azure]l](https://learn.microsoft.com/en-us/azure/role-based-access-control/overview)
@@ -263,6 +262,31 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 By implementing these comprehensive security measures, we ensure that our system is robust against various security threats and complies with industry standards for data protection and privacy.
 
 ---
+### Key diffrentiator:
+![image](https://github.com/ANUJT65/bob_hackathon/assets/123918593/7f9a3014-1fc4-45b6-9990-b7cee2d95854)
+
+# Why Walter White is Superior??
+
+1. **Comprehensive Customer Connection:**
+   - **Advantage:** Seamless interactions and engagement through advanced email classification and customer service features.
+   - **Benefit:** Enhances customer satisfaction and loyalty by efficiently managing and analyzing customer data.
+
+2. **Software-Based Automation:**
+   - **Advantage:** Robust automation capabilities similar to ERP/RPA tools.
+   - **Benefit:** Reduces manual effort and minimizes errors.
+
+3. **Generative AI for Textual Queries:**
+   - **Advantage:** Handles complex textual queries with intelligent, context-aware responses.
+   - **Benefit:** Provides quick and accurate information, improving decision-making.
+
+4. **Data Classification and Analytics:**
+   - **Advantage:** Advanced data analysis beyond simple data handling.
+   - **Benefit:** Identifies trends and enables data-driven decisions.
+
+5. **Overall Excellence:**
+   - **Advantage:** Combines customer connection, automation, AI, and analytics into one platform.
+   - **Benefit:** Addresses multiple business needs efficiently.
+
 
 ### Scalability
 
