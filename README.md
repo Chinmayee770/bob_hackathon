@@ -20,25 +20,13 @@ The banking industry faces significant challenges in operational efficiency, par
 - **Retrieve and Analyze Customer Data:** Automatically fetch, store, and process customer data to support informed decision-making.
 - **Perform Repetitive Calculations:** Automate financial calculations and metrics to reduce manual effort and minimize errors.
 - **Categorize and Respond to Emails:** Use AI to classify incoming emails and generate appropriate responses, improving communication efficiency.
-
-
+  
 ---
 
-## Methodology
+## Prerequisites for understanding the project/Various considerations in project
 
-### Overview
-The Walter White dashboard integrates various Azure services and machine learning models to automate and streamline banking operations. Here’s a detailed breakdown of how each component functions:
-
-![image](https://github.com/ANUJT65/bob_hackathon/assets/123918593/5ef69718-31ef-4825-b49b-fee883dc110d)
-
-
-## Prerequisites for understanding the project
-
-There are 3 types of operations we are  enhancing  in banks:
-
-**All are very crucial in functioning of banks**
-
-### 1. Business Loan Analytics
+### 1.Loan Approvals
+## Business Loans
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
 - Income tax returns
 - Audited balance sheets
@@ -46,14 +34,24 @@ The parameters for giving business loans are very different from personal loans.
 - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
 - [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
 
-### 2. Personal Loan Analytics
+### Personal Loans
 The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
-### 3. Email Classification and Categorization
-This model categorizes and classifies emails sent to respective departments so that customers are prioritized and their queries are always resolved.
+### 2. Email Classification and Categorization(Enhancing customer connect):
+Scalable Machine learning models categorizes and classify emails sent to respective departments so that customers are prioritized and their queries are always resolved.
+-[Categories Considered]()
 
-################
+### 3.Analytics and repititive calculations 
+Using Generative AI and varius mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
+
+## Methodology
+
+### Overview
+The Walter White dashboard integrates various Azure services and machine learning models to automate and streamline banking operations. Here’s a detailed breakdown of how each component functions:
+
+![image](https://github.com/ANUJT65/bob_hackathon/assets/123918593/5ef69718-31ef-4825-b49b-fee883dc110d)
+##--
 ## Detailed Workflow
 
 
