@@ -206,8 +206,7 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 
 ---
 ## Tech Stack
-
-![Tech_Stack](https://github.com/ANUJT65/bob_hackathon/assets/123918593/2bb6736b-6088-408f-b53b-15dacd03fe3c)
+![tech_stack_updated](https://github.com/ANUJT65/bob_hackathon/assets/123918593/f9725c06-b448-4397-8328-5a23219e7bf9)
 
 ### Frontend
 - **React JS:** For building a dynamic and responsive user interface.
@@ -407,3 +406,29 @@ To handle increased user and application volumes, our solution supports both hor
      - **Data Transformation:** Processes large volumes of data efficiently using data flows and mapping data flows.
    - **Implementation:**
      - Create pipelines to ingest data from various sources, transform it, and load it into databases.
+    
+     
+
+## Ease Of Deployment and maintainence
+
+###  How Docker Helps Our Project Run Smoothly
+
+- **Containerization and Isolation:**
+  - **Encapsulation:** Docker packages our project with all its dependencies, ensuring it runs consistently everywhere.
+  - **Isolation:** Each container operates independently, preventing conflicts with the bank’s existing systems.
+
+- **No Interference with Existing Systems:**
+  - **Independent Execution:** Containers are lightweight and don’t interfere with other applications on the same system.
+
+- **Easy Integration:**
+  - **API and Microservices:** Our project can interact with the bank’s systems through APIs, making integration smooth and secure. It also integrates seamlessly with Azure Functions.
+  - **Networking:** Docker allows containers to communicate securely with each other and with external systems.
+
+- **Easy Maintenance:**
+  - **Consistent Environments:** Docker ensures our project runs the same way in development, testing, and production, reducing environment-specific issues.
+  - **Simplified Updates:** We can update or roll back our project without affecting the bank’s critical systems.
+  - **Isolated Troubleshooting:** Problems can be fixed within a container without impacting others, making maintenance simpler and faster.
+
+### Additional Resources
+- For more detailed information on how we will  be integrating Azure Functions with Docker, please refer to this [Medium article](https://medium.com/@lucascuello/azure-functions-with-docker-82d3c4a2d831).
+
