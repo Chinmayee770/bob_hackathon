@@ -48,6 +48,7 @@ The banking industry faces significant challenges in operational efficiency, par
 ### 1.Loan Approvals
 ## A) Business Loans
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
+
  Income tax returns
  Audited balance sheets:
   - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
