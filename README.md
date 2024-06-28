@@ -122,6 +122,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 ### 4. Auditing Agency Verification: (Check the reliability of the agency who audited the data)
 - **Verification Process:** Ensures that all financial and external data meet required standards and also if the auditing agencies are proper or not who audited all this financial data.
 - **Reference for why its necessary??:** [Satyam Scam Overview](https://www.5paisa.com/blog/satyam-scam)
+- **details on how it will be checked:** https://github.com/ANUJT65/bob_hackathon/blob/main/backend/How%20auditing%20agency%20reputation%20will%20be%20checked_README.md
 
 ### 5. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
