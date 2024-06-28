@@ -79,9 +79,9 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
 
 ## For removing any confusion before we start :
-- 1) Inputs can be through ocr , csvs and pdfs and even keyboard inputs for making it easy for customers to access the dashboard (Customer is king as they always say )
- - 2) Azure Blob storage is for storing documents.
-- 3) Azure sql database is for storing structured information from documents and inputs.
+ 1) Inputs can be through ocr , csvs and pdfs and even keyboard inputs for making it easy for customers to access the dashboard (Customer is king as they always say )
+ 2) Azure Blob storage is for storing documents.
+ 3) Azure sql database is for storing structured information from documents and inputs.
 ### 
 - **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
 - **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
