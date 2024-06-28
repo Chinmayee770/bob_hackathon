@@ -1,12 +1,6 @@
 # Bank Of Baroda Hackathon
 - **TRACK CHOSEN:**
   ![track](https://github.com/ANUJT65/bob_hackathon/assets/123918593/3d507f68-56ee-4f6b-a4e8-0eda52b922b7)
-- **Team Cyber Wardens**  
-**College: Vishwakarma Institute of Technology**  
-**Team Members:**
-- Pratham Gadkari
-- Suraj Chavan
-- Anuj Tadkase
 
 # Table of Contents
 
@@ -28,7 +22,13 @@
 
 
 ## Title:  Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
-
+ **Team Cyber Wardens**  
+**College: Vishwakarma Institute of Technology**  
+**Team Members:**
+- Chinmayee Prabhu
+- Pratham Gadkari
+- Suraj Chavan
+- Anuj Tadkase
 ---
 
 ## Problem Statement
