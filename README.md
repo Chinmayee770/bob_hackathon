@@ -46,15 +46,14 @@ The banking industry faces significant challenges in operational efficiency, par
 ## (Various considerations in project)
 
 ### 1.Loan Approvals
-## Business Loans
+## A) Business Loans
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
-- Income tax returns
-- Audited balance sheets
+ Income tax returns
+ Audited balance sheets:
+  - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
+  - [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
 
-- [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
-- [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
-
-### Personal Loans
+### B) Personal Loans
 The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
