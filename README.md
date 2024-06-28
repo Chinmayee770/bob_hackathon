@@ -247,9 +247,11 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 - **Multi-Factor Authentication (MFA)**: We implement MFA to add an extra layer of security. Options include:
   - **Email OTP**: Sending a one-time password to the user's registered email address.
   - **Microsoft Authenticator App**: Using the app for code generation, which must be entered along with the password.
-  - [Azure Multi-Factor Authentication](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks)
-  - Image source[medium]: **The goal is to protect your organization while also providing the right levels of access to the users who need it.**
+  - [Azure Multi-Factor Authentication[medium]]([https://medium.com/@kwtrelbakouri1/azure-multi-factor-authentication-cff5b7d958b6])
+  - [Azure Multi-Factor Authentication[Azure]]([https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks])
+  - Image source[Azure docs]: **The goal is to protect your organization while also providing the right levels of access to the users who need it.**
   - ![mfa](https://github.com/ANUJT65/bob_hackathon/assets/123918593/515e7fe0-73e2-4bb4-aff0-94290e1448d4)
+  
 
 
 ### 3) Role-Based Access Control (RBAC)
