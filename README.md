@@ -19,7 +19,11 @@
 
 
 
-# Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
+##Title:  Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
+
+- **TRACK CHOSEN:**
+  ![track](https://github.com/ANUJT65/bob_hackathon/assets/123918593/3d507f68-56ee-4f6b-a4e8-0eda52b922b7)
+
 
 **Team Cyber Wardens**  
 **College: Vishwakarma Institute of Technology**  
@@ -36,9 +40,10 @@ The banking industry faces significant challenges in operational efficiency, par
  The main goals of the Walter White dashboard are to:
  
 - **Streamline Loan Approvals:** Automate the loan approval process, reducing approval time from weeks to days(reducing the approval time for business loan approvals which take weeks, and also reducing the personal loan approvals which take upto some days).
-- **Retrieve and Analyze Customer Data:** Automatically fetch, store, and process customer data to support informed decision-making.
+- **Retrieve and Analyze Customer Data:** Automatically fetch, store,  process and analyse customer data to support informed decision-making using **GEN AI and ML**.
 - **Perform Repetitive Calculations:** Automate financial calculations and metrics to reduce manual effort and minimize errors.
 - **Categorize and Respond to Emails:** Use AI to classify incoming emails and generate appropriate responses, improving communication efficiency.
+- **Streamline Input and Storage Process:** Simplify data submission for customers and ensure secure storage, leveraging OCR, form recognition, and cloud-based solutions. This reduces the burden on bankers for data handling and enhances operational efficiency also enhances customer engagement and convinience .
   
 ---
 
