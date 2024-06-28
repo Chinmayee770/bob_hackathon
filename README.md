@@ -42,7 +42,8 @@ The banking industry faces significant challenges in operational efficiency, par
   
 ---
 
-## Prerequisites for understanding the project/Various considerations in project
+## Prerequisites for understanding the project
+## (Various considerations in project)
 
 ### 1.Loan Approvals
 ## Business Loans
