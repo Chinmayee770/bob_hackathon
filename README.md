@@ -60,8 +60,8 @@ The parameters for giving business loans are very different from personal loans.
 The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
-### 2. Email Classification and Categorization(Enhancing customer connect):
-Scalable Machine learning models categorizes and classify emails sent to respective departments so that customers are prioritized and their queries are always resolved.
+### 2. Email and application forms Classification and Categorization(Enhancing customer connect):
+Scalable Machine learning models categorizes and classify banking applications forms and  emails sent to respective departments so that customers are prioritized and their queries are always resolved.
 -[Categories Considered]()
 
 ### 3.Analytics and repetitive calculations 
