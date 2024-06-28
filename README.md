@@ -1,5 +1,45 @@
 # Bank Of Baroda Hackathon
 
+# Table of Contents
+
+1. [Introduction](#bank-of-baroda-hackathon)
+2. [Team Information](#team-cyber-wardens)
+3. [Problem Statement](#problem-statement)
+4. [Prerequisites for Understanding the Project](#prerequisites-for-understanding-the-projectvarious-considerations-in-project)
+    - [Loan Approvals](#1loan-approvals)
+        - [Business Loans](#business-loans)
+        - [Personal Loans](#personal-loans)
+    - [Email Classification and Categorization (Enhancing Customer Connect)](#2-email-classification-and-categorizationenhancing-customer-connect)
+    - [Analytics and Repetitive Calculations](#3analytics-and-repetitive-calculations)
+5. [Methodology](#methodology)
+    - [Overview](#overview)
+    - [Detailed Workflow](#detailed-workflow)
+6. [Implementation](#implementation)
+7. [Tech Stack](#tech-stack)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+    - [Machine Learning and AI](#machine-learning-and-ai)
+    - [Data Storage and Processing](#data-storage-and-processing)
+    - [Automation and Integration](#automation-and-integration)
+    - [Security](#security)
+8. [Security Considerations](#security-considerations)
+    - [Authentication and Authorization](#1-authentication-and-authorization)
+    - [Multi-Factor Authentication (MFA)](#2-multi-factor-authentication-mfa)
+    - [Role-Based Access Control (RBAC)](#3-role-based-access-control-rbac)
+    - [Data Security](#4-data-security)
+    - [Secure Data Transfer](#5-secure-data-transfer)
+    - [Auditing and Monitoring](#6-auditing-and-monitoring)
+    - [Verification of Auditing Agencies](#7-verification-of-auditing-agencies)
+9. [Key Differentiator](#key-differentiator)
+10. [User Experience](#user-experience)
+11. [Scalability](#scalability)
+    - [Infrastructure Readiness](#infrastructure-readiness)
+    - [Key Azure Services to Ensure Scalability](#key-azure-services-to-ensure-scalability)
+12. [Conclusion](#conclusion)
+
+
+
+
 # Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
 
 **Team Cyber Wardens**  
