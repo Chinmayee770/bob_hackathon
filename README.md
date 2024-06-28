@@ -250,7 +250,7 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
   - **Email OTP**: Sending a one-time password to the user's registered email address.
   - **Microsoft Authenticator App**: Using the app for code generation, which must be entered along with the password.
   - [Azure Multi-Factor Authentication[Medium]](https://medium.com/@kwtrelbakouri1/azure-multi-factor-authentication-cff5b7d958b6)
-  - [Azure Multi-Factor Authenticationn[Azure]]([https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks])
+  - [Azure Multi-Factor Authenticationn[Azure]1](https://learn.microsoft.com/en-us/entra/identity/authentication/concept-mfa-howitworks)
   - Image source[Azure docs]: **The goal is to protect your organization while also providing the right levels of access to the users who need it.**
   - ![mfa](https://github.com/ANUJT65/bob_hackathon/assets/123918593/515e7fe0-73e2-4bb4-aff0-94290e1448d4)
   
