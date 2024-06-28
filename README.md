@@ -430,6 +430,16 @@ To handle increased user and application volumes, our solution supports both hor
   - **Simplified Updates:** We can update or roll back our project without affecting the bank’s critical systems.
   - **Isolated Troubleshooting:** Problems can be fixed within a container without impacting others, making maintenance simpler and faster.
 
-### Additional Resources
-- For more detailed information on how we will  be integrating Azure Functions with Docker, please refer to this [Medium article](https://medium.com/@lucascuello/azure-functions-with-docker-82d3c4a2d831).
+
+- For more detailed information on how we will  be integrating Azure Functions with Docker [Medium article](https://medium.com/@lucascuello/azure-functions-with-docker-82d3c4a2d831).
+
+ ## Closing Remarks
+
+Thank you very much for giving us an opportunity to show our idea. We have tried to show as much implementation and documentation as we can, and we really hope you like our idea.
+
+We would love to work with Bank Of Baroda and Microsoft on this project and would greatly appreciate any feedback from the judges!
+
+[Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLSeEYeO0i4gwhKAgsvP2TqNMkgJf6N86oUwLe16KCgaWIU-PBg/viewform)
+
+~~Team Cyber Wardens
 
