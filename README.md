@@ -5,7 +5,7 @@
 | Section                              |
 |--------------------------------------|
 | [Bank Of Baroda Hackathon](#bank-of-baroda-hackathon)         |
-| [Problem Statement](#problem-statement)                       |
+| [Problem Statement/Idea](#problem-statement)                       |
 | [Prerequisites for Understanding the Project](#prerequisites-for-understanding-the-project) |
 | [Methodology](#methodology)                                   |
 | [Implementation](#implementation)                             |
