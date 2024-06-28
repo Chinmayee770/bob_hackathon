@@ -5,7 +5,6 @@
 | Section                              |
 |--------------------------------------|
 | [Bank Of Baroda Hackathon](#bank-of-baroda-hackathon)         |
-| [Team Cyber Wardens](#team-cyber-wardens)                     |
 | [Problem Statement](#problem-statement)                       |
 | [Prerequisites for Understanding the Project](#prerequisites-for-understanding-the-project) |
 | [Methodology](#methodology)                                   |
@@ -283,7 +282,7 @@ Security is a critical component of the Walter White Dashboard. We are leveragin
 By implementing these comprehensive security measures, we ensure that our system is robust against various security threats and complies with industry standards for data protection and privacy.
 
 ---
-### Key diffrentiator:
+### Key differentiator:
 ![image](https://github.com/ANUJT65/bob_hackathon/assets/123918593/7f9a3014-1fc4-45b6-9990-b7cee2d95854)
 
 # Why Walter White is Superior??
