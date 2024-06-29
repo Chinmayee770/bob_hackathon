@@ -114,23 +114,22 @@ The Walter White dashboard integrates various Azure services and machine learnin
 ### 2). Business Loans thresholds:
 
  **For approval of business loans we are checking 3 thresholds as follows**
-
-### 2.1. External Data Integration For Company Reputation Check
+### 2.1 Financial Ratio Calculation
+- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.**(Gen ai for banking calculations is not reliable but we could do repititive  formulations using ai  and store in sql)**
+- **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
+  
+### 2.2. External Data Integration For Company Reputation Check
 - **Azure Logic Apps:** Automates fetching of news articles related to businesses using a News API.
 - gitlink[backend](https://github.com/ANUJT65/bob_hackathon/tree/main/backend)
 - **Azure Cognitive Services:**  Analyze news sentiment and searches for pending legal cases on companies.
-- **Final output is given, we do sentiment analysis on it and give weights to the sentiments and calculate a score.**
+- **Final output will be given, we do sentiment analysis on it and give weights to the sentiments and calculate a score.**
   - **Reference: on how sentiment analysis is done** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
 
-### 2.2. Auditing Agency Verification: (Check the reliability of the agency who audited the data)
+### 2.3. Auditing Agency Verification: (Check the reliability of the agency who audited the data)
 - **Verification Process:** Ensures that all financial and external data meet required standards and also if the auditing agencies are proper or not who audited all this financial data.
 - **Reference for why its necessary??:** [Satyam Scam Overview](https://www.5paisa.com/blog/satyam-scam)
-- **details on how it will be checked:** https://github.com/ANUJT65/bob_hackathon/blob/main/backend/How%20auditing%20agency%20reputation%20will%20be%20checked_README.md
-  
- ### 2.3 Financial Ratio Calculation
-- **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.**(Gen ai for banking calculations is not reliable but we could do repititive 
-                          formulations using ai  and store in sql)**
-- **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
+- **details on how it will be checked:**[Auditing agency reputation/authenticity check](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/How%20auditing%20agency%20reputation%20will%20be%20checked_README.md)
+
   
 ### 3.Business Loan Approval Process Model 
 - **Verification:** Checking is done  if all 2.1)Financial Ratios, 2.2)Company Reputation Check Through External Data, and 2.3)Audit Agency  Verifications, scores meet thresholds as you can see above for 
