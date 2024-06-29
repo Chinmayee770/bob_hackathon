@@ -47,22 +47,22 @@ The banking industry faces significant challenges in operational efficiency, par
 
 ## (Various considerations in project)
 **THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS WHICH WE ARE CONSIDERING FOR THIS PROJECT**
-## A) Business Loans Considerations
+## 1.1) Business Loans Considerations
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
 - Income tax returns :
 - Audited balance sheets:
   - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
   - [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
 
-### B) Personal Loans(NON BUSINESS LOANS) Considerations
+### 1.2) Personal Loans(NON BUSINESS LOANS) Considerations
 The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
-### . Email and application forms Classification and Categorization(Enhancing customer connect):
+### 2.) Email and application forms Classification and Categorization(Enhancing customer connect):
 Scalable Machine learning models categorizes and classify banking applications forms and  emails sent to respective departments so that customers are prioritized and their queries are always resolved.
 -[Categories Considered]()
 
-### .Analytics and repetitive calculations 
+### 3.) Analytics and repetitive calculations 
 Using Generative AI and various mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
 
 ## Methodology
