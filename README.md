@@ -18,6 +18,20 @@
 | [Scalability](#scalability)                                   |
 | [Conclusion](#conclusion)                                     |
 
+| Section                              |
+|--------------------------------------|
+| [Bank Of Baroda Hackathon](#bank-of-baroda-hackathon)         |
+| [Problem Statement](#problem-statement)                       |
+| [Prerequisites for Understanding the Project](#prerequisites-for-understanding-the-project) |
+| [Methodology](#methodology)                                   |
+| [Detailed Workflow](#detailed-workflow)                       |
+| [Implementation](#implementation)                             |
+| [Tech Stack](#tech-stack)                                     |
+| [Security Considerations](#security-considerations)           |
+| [Key Differentiator](#key-differentiator)                     |
+| [User Experience](#user-experience)                           |
+| [Scalability](#scalability)                                   |
+| [Conclusion](#conclusion)                                     |
 
 
 
@@ -327,7 +341,7 @@ By implementing these comprehensive security measures, we ensure that our system
 Walter White Dashboard is designed with a strong focus on improving user engagement for both customers and bankers. Our solution incorporates various features and functionalities that enhance the overall user experience, making interactions more efficient and satisfying.
 
 ### For Customers:
-1. **Simplified Data Submission:**
+1. **Simplified  and multiple Data Submission/entry options:**
    - **OCR and Form Recognition:** Customers can upload documents, and our system automatically extracts and populates necessary information, reducing manual effort.
    - **Direct Keyboard Inputs:** Easy-to-use web forms for manual data entry.
 
@@ -353,12 +367,13 @@ Walter White Dashboard is designed with a strong focus on improving user engagem
    - **Automated Responses:** Generative AI-powered responses help in maintaining timely communication with customers.
 
 3. **Data-Driven Decision Making:**
-   - **Generative AI for Analytics:** Bankers can query the database using natural language and obtain detailed insights and analytics.
+   - **Generative AI for Analytics:** Bankers can query the database using natural language and obtain detailed insights and analytics. (They can access  document from blob storage and analyze that using gen ai 
+                                      pandas agent based queries)
    - **Customizable Reports:** Generate and view comprehensive reports based on the latest data, aiding in better decision-making.
 
 4. **Enhanced Security and Compliance:**
    - **Role-Based Access Control:** Ensures that bankers have appropriate access based on their roles, protecting sensitive data.
-   - **Audit Logs:** Detailed logs of all activities help in monitoring and maintaining compliance with regulatory requirements.
+  
 
 By incorporating these features, Walter White Dashboard not only improves the efficiency of banking operations but also significantly enhances user engagement for both customers and bankers, leading to higher satisfaction and better service delivery.
 
