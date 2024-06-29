@@ -46,9 +46,9 @@ The banking industry faces significant challenges in operational efficiency, par
 
 ## Prerequisites for understanding the project
 ## (Various considerations in project)
-
+**THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS WHICH WE ARE CONSIDERING FOR THIS PROJECT**
 ### 1.Loan Approvals
-## A) Business Loans
+## A) Business Loans Considerations
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
 
  Income tax returns
@@ -56,7 +56,7 @@ The parameters for giving business loans are very different from personal loans.
   - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
   - [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
 
-### B) Personal Loans
+### B) Personal Loans(NON BUSINESS LOANS) Considerations
 The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
