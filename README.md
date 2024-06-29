@@ -148,7 +148,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:** Generates and sends automated responses from bank side using Generative AI which are context aware responses.
   - **Integration with Step 1:** As part of the data preprocessing, incoming emails are processed and categorized.
   - **Integration with Step 6:** Automated responses and communications during the loan approval process and other customer interactions through banking side.
-  - **Reference on how auto responding context aware emails work:[mwdium link]** [Python Gmail Auto Responder using Open AI](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
+  - **Reference on how auto responding context aware emails work:[medium link]**[Python Gmail Auto Responder using Open AI](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
   - **Reference on how gmails are classification is done:[git link]** [Python Gmail Classification using Azure ML](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Advance_Email_Classification.ipynb)
   
   ### 6. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
