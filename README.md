@@ -89,8 +89,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
 
 
+![bobdiagram-Page-1 drawio (3)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/1fbaae4d-004a-4190-bc64-5a3606f7c41b)
 
-![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/d6c47910-947a-41a1-8cf7-f9d497444ad7)
 
 
 ### 1. Data Input and Preprocessing
@@ -108,17 +108,13 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
  **1.2)Excel Sheets:**
 -  Everything (A,B inputs) wil be converted in Excel format will be stored on **Azure Blob Storage:**.
--  **Reference: On how it will be form data will be converted from azure forms to excel:** [ Azure Form Recognizer](https://medium.com/microsoftazure/extracting-form-data-to-json-excel-pandas-with-azure-form-recognizer-160488a2d11e)
+-  **Reference 1.2: On how it will be form data will be converted from azure forms to excel:** [ Azure Form Recognizer](https://medium.com/microsoftazure/extracting-form-data-to-json-excel-pandas-with-azure-form-recognizer-160488a2d11e)
 - **Azure Functions:**  is triggered when a new file is uploaded to Blob Storage.
 - **Action: taken:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
-- **Reference: On how excel files will be processed into sql for analysis** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
+- **Reference 1.2: On how excel files will be processed into sql for analysis** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
     
-  
- 
-### 2.Business Loan Approval Process 
-- **Verification:** Checks if Financial Ratios, Company Reputation Check Through External Data, and Audit Agency  Verifications  scores meet thresholds as you see  below for detailed explanation
-- **Azure Functions:** Logic is implemented for threshold checks and validation.
-- **Approval:** Final loan approval is given if all checks are satisfactory (input pdfs to input data is verified and final loan is approved).
+### 2 Business Loans thresholds
+- **For approval of business loans we are checking 3 thresholds as follows **
 
 ### 2.1. External Data Integration For Company Reputation Check
 - **Azure Logic Apps:** Automates fetching of news articles related to businesses using a News API.
@@ -136,9 +132,14 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.**(Gen ai for banking calculations is not reliable but we could do repititive 
                           formulations using ai  and store in sql)**
 - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
+  
+### 3.Business Loan Approval Process 
+- **Verification:** Checking is done  if all 2.1)Financial Ratios, 2.2)Company Reputation Check Through External Data, and 2.3)Audit Agency  Verifications  scores meet thresholds as you can see above for detailed explanation
+- **Azure Functions:** Logic is implemented for threshold checks and validation.
+- **Approval:** Final loan approval is given if all checks are satisfactory (input pdfs to input data is verified and final loan is approved).
 
 
-### 3. Customer (Non-Businesses) Credit Score Calculation
+### 4. Customer (Non-Businesses) Credit Score Calculation
 - **Azure Machine Learning:** Will use an improved ML model to calculate credit scores for non-business customers.
   - **Integration with Step 6:** Uses customer data processed in steps 1-3 to calculate the credit score and validate during the loan approval process.
   - **Reference model[git link]** [Credit Score Anomaly Detection]([https://github.com/ANUJT65/bob_hackathon/blob/main/backend/credit_score_calculations.py])
@@ -147,9 +148,9 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Cognitive Services and Azure ML:** Classifies incoming emails based on content and keywords.
 - **Azure Functions:** Generates and sends automated responses from bank side using Generative AI which are context aware responses.
   - **Integration with Step 1:** As part of the data preprocessing, incoming emails are processed and categorized.
-  - **Integration with Step 6:** Automated responses and communications during the loan approval process and other customer interactions.
-  - **Reference:[mwdium link]** [Python Gmail Auto Responder using Open AI](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
-  - **Reference:[git link]** [Python Gmail Classification using Azure ML](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Advance_Email_Classification.ipynb)
+  - **Integration with Step 6:** Automated responses and communications during the loan approval process and other customer interactions through banking side.
+  - **Reference on how auto responding context aware emails work:[mwdium link]** [Python Gmail Auto Responder using Open AI](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
+  - **Reference on how gmails are classification is done:[git link]** [Python Gmail Classification using Azure ML](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Advance_Email_Classification.ipynb)
   
   ### 6. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
