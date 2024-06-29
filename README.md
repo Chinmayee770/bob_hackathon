@@ -88,7 +88,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
 - **Please be free to click  image (open in new tab) and follow the numbers given in diagram  and methodology simultaneously**
 
- ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/a537a68d-79f3-42a0-ad0a-7b90a06df387)
+
  ![bobdiagram-Page-1 drawio (2)](https://github.com/ANUJT65/bob_hackathon/assets/123918593/27381485-6dbc-44a4-9512-e893f79a2ff1)
 
 
