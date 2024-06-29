@@ -43,16 +43,14 @@ The banking industry faces significant challenges in operational efficiency, par
 - **Streamline Input and Storage Process:** Simplify data submission for customers and ensure secure storage, leveraging OCR, form recognition, and cloud-based solutions. This reduces the burden on bankers for data handling and enhances operational efficiency also enhances customer engagement and convinience .
   
 ---
-
 ## Prerequisites for understanding the project
+
 ## (Various considerations in project)
 **THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS WHICH WE ARE CONSIDERING FOR THIS PROJECT**
-### 1.Loan Approvals
 ## A) Business Loans Considerations
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
-
- Income tax returns
- Audited balance sheets:
+- Income tax returns :
+- Audited balance sheets:
   - [Audited Sheet example pdf](https://www.moneycontrol.com/financials/tatamotors/balance-sheetVI/TM03)
   - [Audited Sheet inputs/parameters considered](https://drive.google.com/file/d/1voKSi_i6FulvfVyE1tcm8e6QSYBsdD8b/view?usp=sharing)
 
@@ -133,16 +131,16 @@ The Walter White dashboard integrates various Azure services and machine learnin
                           formulations using ai  and store in sql)**
 - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
   
-### 3.Business Loan Approval Process 
-- **Verification:** Checking is done  if all 2.1)Financial Ratios, 2.2)Company Reputation Check Through External Data, and 2.3)Audit Agency  Verifications  scores meet thresholds as you can see above for detailed explanation
+### 3.Business Loan Approval Process Model 
+- **Verification:** Checking is done  if all 2.1)Financial Ratios, 2.2)Company Reputation Check Through External Data, and 2.3)Audit Agency  Verifications, scores meet thresholds as you can see above for detailed explanation
 - **Azure Functions:** Logic is implemented for threshold checks and validation.
 - **Approval:** Final loan approval is given if all checks are satisfactory (input pdfs to input data is verified and final loan is approved).
 
 
 ### 4. Customer (Non-Businesses) Credit Score Calculation
 - **Azure Machine Learning:** Will use an improved ML model to calculate credit scores for non-business customers.
-  - **Integration with Step 6:** Uses customer data processed in steps 1-3 to calculate the credit score and validate during the loan approval process.
-  - **Reference model[git link]** [Credit Score Anomaly Detection]([https://github.com/ANUJT65/bob_hackathon/blob/main/backend/credit_score_calculations.py])
+- **Data Source**: Here the data source will be from 1.2 where we will take input cibil score forms/pdfs and ocr based inputs aswell as keyboard inputs which are stored in blob storage in csv format
+- **Reference model[git link]** [Credit Score Anomaly Detection]([https://github.com/ANUJT65/bob_hackathon/blob/main/backend/credit_score_calculations.py])
 
 ### 5. Email Classification of customer queries and Response from banking side
 - **Azure Cognitive Services and Azure ML:** Classifies incoming emails based on content and keywords.
@@ -154,14 +152,15 @@ The Walter White dashboard integrates various Azure services and machine learnin
   
   ### 6. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
-- User would just ask the bot which dataset they want to do analysis on and would retrieve it from blob storage(seperate storage for documents/pdfs in blob storage and info  in sql helps for this purpose)
-- **Reference for how its done:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
-- **reference 2 for how its going to be done:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
+- User would just ask the bot which dataset they want to do analysis on and would retrieve it from blob storage(seperate storage for documents/pdfs in blob storage and info in csv helps for this purpose)
+- **Reference on how ai generated sql database retrieval work:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
+- **reference on how gen ai based analytics works:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
   
 
-## Centralized Dashboard
+## 7) Centralized Dashboard
 - **Overview:** A centralized dashboard for monitoring and managing the entire process, providing a unified interface for data access and control.
-- All the processed information, including department-wise email classification, financial ratios, company reputation, agency/audit check, business loan status, and personal loan status, is integrated into a centralized dashboard.
+- All the processed information, including department-wise email classification, financial ratios, company reputation, agency/audit check, business loan status, and personal loan status, is integrated into a 
+  centralized dashboard.
 - This dashboard provides a comprehensive view for decision-makers to approve loans, respond to emails, and perform other critical operations efficiently.
   
 -**Question/Query on Data:**
@@ -225,18 +224,18 @@ Data analytics is facilitated through AI using langchain and pandas agents to pr
 - **React JS:** For building a dynamic and responsive user interface.
 
 ### Backend
-- **Flask:** For developing RESTful APIs and handling backend logic and also for integrating azure tools aswell as machine learning and gen ai
+- **Flask:** For developing RESTful APIs and handling backend logic and also for integrating azure tools aswell as machine learning and gen ai models.
 
 ### Machine Learning and AI
 - **Azure Machine Learning:** For building and deploying machine learning models.
 - **Azure Cognitive Services:** For natural language processing, sentiment analysis,email classification,external data integration and other AI-driven tasks.
 - **Lang-Chain:** For efficient database retrieval and analytics.
-- **Azure Generative AI:** for doing analytics ,for responding to emails etc.
+- **Azure Generative AI:** for doing analytics ,for responding to emails , for creating synthetic datasets (cause of lack of data for training ml models) etc.
 
 ### Data Storage and Processing
 - **Azure Blob Storage:** For storing uploaded files and large datasets.
 - **Azure SQL Database:** For storing and querying structured data.
-- **Azure Data Factory:** For orchestrating data workflows and processing.
+- **Azure Data Factory:** For streaming the data.
 
 ### Automation and Integration
 - **Azure Functions:** For running serverless code triggered by events such as file uploads or HTTP requests.
