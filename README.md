@@ -108,16 +108,16 @@ The Walter White dashboard integrates various Azure services and machine learnin
 **C)Direct Keyboard Inputs:**
 - **Web Interface:** Provides forms for users to input data manually.
 - **Azure Functions:** Handles form submissions and updates the database accordingly.
-- all forms have been provided in prerequisites
+- sample forms have been provided in prerequisites
   
 ### 2. Financial Ratio Calculation
 - **Azure SQL Database:** Performs key financial ratio calculations (e.g., current ratio, debt-to-equity ratio) using SQL queries.**(Gen ai for banking calculations is not reliable but we could do repititive 
-                          formulations using ai )**
+                          formulations using ai  and store in sql)**
   - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
 
 ### 3. External Data Integration
 - **Azure Logic Apps:** Automates fetching of news articles related to businesses using a News API.
-- **Azure Cognitive Services:** Ro Analyze news sentiment and searches for pending legal cases on companies.
+- **Azure Cognitive Services:**  Analyze news sentiment and searches for pending legal cases on companies.
   - **Reference: on how sentiment analysis is done** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
 
 ### 4. Auditing Agency Verification: (Check the reliability of the agency who audited the data)
@@ -127,6 +127,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
 ### 5. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
+- User would just ask the bot which dataset they want to do analysis on and would retrieve it from blob storage(seperate storage for documents/pdfs in blob storage and info  in sql helps for this purpose)
 - **Reference for how its done:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
 - **reference 2 for how its going to be done:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
   
@@ -145,7 +146,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:** Generates and sends automated responses using Generative AI.
   - **Integration with Step 1:** As part of the data preprocessing, incoming emails are processed and categorized.
   - **Integration with Step 6:** Automated responses and communications during the loan approval process and other customer interactions.
-  - **Reference:[git link]** [Python Gmail Auto Responder using ChatGPT](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
+  - **Reference:[mwdium link]** [Python Gmail Auto Responder using Open AI](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
+  - **Reference:[git link]** [Python Gmail Classification using Azure ML](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Advance_Email_Classification.ipynb)
 
 ## Centralized Dashboard
 - **Overview:** A centralized dashboard for monitoring and managing the entire process, providing a unified interface for data access and control.
