@@ -39,7 +39,7 @@ The banking industry faces significant challenges in operational efficiency, par
 - **Streamline Loan Approvals:** Automate the loan approval process, reducing approval time from weeks to days(reducing the approval time for business loan approvals which take weeks, and also reducing the personal loan approvals which take upto some days).
 - **Retrieve and Analyze Customer Data:** Automatically fetch, store,  process and analyse customer data to support informed decision-making using **GEN AI and ML**.
 - **Perform Repetitive Calculations:** Automate financial calculations and metrics to reduce manual effort and minimize errors.
-- **Categorize and Respond to Emails:** Use AI to classify incoming emails and generate appropriate responses, improving communication efficiency.
+- **Categorize and Respond to Emails:** Use AI to classify incoming emails and applications and generate appropriate responses, improving communication efficiency and customer connect.
 - **Streamline Input and Storage Process:** Simplify data submission for customers and ensure secure storage, leveraging OCR, form recognition, and cloud-based solutions. This reduces the burden on bankers for data handling and enhances operational efficiency also enhances customer engagement and convinience .
   
 ---
