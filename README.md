@@ -161,15 +161,15 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
 ## 7) Centralized Dashboard
 - **Overview:** A centralized dashboard for monitoring and managing the entire process, providing a unified interface for data access and control.
-- All the processed information, including department-wise email classification, financial ratios, company reputation, agency/audit check, business loan status, and personal loan status, is integrated into a 
+ - All the processed information, including department-wise email classification, financial ratios, company reputation, agency/audit check, business loan status, and personal loan status, is integrated into a 
   centralized dashboard.
-- This dashboard provides a comprehensive view for decision-makers to approve loans, respond to emails, and perform other critical operations efficiently.
+ - This dashboard provides a comprehensive view for decision-makers to approve loans, respond to emails, and perform other critical operations efficiently.
   
--**Question/Query on Data:**
-Users (bankers) can query or pose questions about data through the centralized dashboard, making the decision-making process more interactive and data-driven.
+- **Question/Query on Data:**
+  Users (bankers) can query or pose questions about data through the centralized dashboard, making the decision-making process more interactive and data-driven.
 
--**Data Chat Gen AI (Data Analytics):**
-Data analytics is facilitated through AI using langchain and pandas agents to provide insights and trends through a humanised chat bot method.
+- **Data Chat Gen AI (Data Analytics):**
+   Data analytics is facilitated through AI using langchain and pandas agents to provide insights and trends through a humanised chat bot method.
 
 #############
 ---
