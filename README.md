@@ -31,7 +31,7 @@
 | [Key Differentiator](#key-differentiator)                     |
 | [User Experience](#user-experience)                           |
 | [Scalability](#scalability)                                   |
-| [Conclusion](#conclusion)                                     |
+| [Conclusion/Feedback](#closing-remarks)                                     |
 
 
 
