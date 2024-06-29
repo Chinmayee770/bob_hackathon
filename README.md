@@ -151,7 +151,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
   - **Reference on how auto responding context aware emails work:[medium link]**[Python Gmail Auto Responder using Open AI](https://medium.com/@mehmetcan.oralalp/python-gmail-auto-responder-using-chatgpt-7f3a0fe4651c)
   - **Reference on how gmails are classification is done:[git link]** [Python Gmail Classification using Azure ML](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Advance_Email_Classification.ipynb)
   
-  ### 6. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
+
+### 6. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
 - User would just ask the bot which dataset they want to do analysis on and would retrieve it from blob storage(seperate storage for documents/pdfs in blob storage and info in csv helps for this purpose)
 - **Reference on how ai generated sql database retrieval work:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
