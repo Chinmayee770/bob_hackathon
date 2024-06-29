@@ -110,8 +110,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:**  is triggered when a new file is uploaded to Blob Storage.
 - **Action: taken:** Read the Excel file, preprocess the data, and convert it to SQL database tables.
 - **Reference 1.2: On how excel files will be processed into sql for analysis** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
-    
-### 2 Business Loans thresholds
+
+### 2). Business Loans thresholds:
 
  **For approval of business loans we are checking 3 thresholds as follows**
 
@@ -133,10 +133,10 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Reference: on which ratios will be calculated and considered** [Credit Analysis Ratios](https://corporatefinanceinstitute.com/resources/commercial-lending/credit-analysis-ratio/)
   
 ### 3.Business Loan Approval Process Model 
-- **Verification:** Checking is done  if all 2.1)Financial Ratios, 2.2)Company Reputation Check Through External Data, and 2.3)Audit Agency  Verifications, scores meet thresholds as you can see above for detailed explanation
+- **Verification:** Checking is done  if all 2.1)Financial Ratios, 2.2)Company Reputation Check Through External Data, and 2.3)Audit Agency  Verifications, scores meet thresholds as you can see above for 
+                    detailed explanation
 - **Azure Functions:** Logic is implemented for threshold checks and validation.
 - **Approval:** Final loan approval is given if all checks are satisfactory (input pdfs to input data is verified and final loan is approved).
-
 
 ### 4. Customer (Non-Businesses) Credit Score Calculation
 - **Azure Machine Learning:** Will use an improved ML model to calculate credit scores for non-business customers.
@@ -155,7 +155,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
 - User would just ask the bot which dataset they want to do analysis on and would retrieve it from blob storage(seperate storage for documents/pdfs in blob storage and info in csv helps for this purpose)
 - **Reference on how ai generated sql database retrieval work:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
-- **reference on how gen ai based analytics works:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Using%20Pandas%20Dataframe%20Agent.ipynb/)
+- **reference on how gen ai based analytics works:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Gen%20AI%20analytics%20chat%20Using%20Pandas%20Dataframe%20Agent.ipynb)
   
 
 ## 7) Centralized Dashboard
