@@ -117,7 +117,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
 
 ### 2.1. External Data Integration For Company Reputation Check
 - **Azure Logic Apps:** Automates fetching of news articles related to businesses using a News API.
-- gitlink[backend]
+- gitlink[backend](https://github.com/ANUJT65/bob_hackathon/tree/main/backend)
 - **Azure Cognitive Services:**  Analyze news sentiment and searches for pending legal cases on companies.
 - **Final output is given, we do sentiment analysis on it and give weights to the sentiments and calculate a score.**
   - **Reference: on how sentiment analysis is done** [Sentiment Analysis of News Headlines](https://medium.com/@ramitsharma1994.rs/sentiment-analysis-of-news-headlines-with-microsoft-azure-cognitive-services-be3dedf3ccec)
