@@ -2,21 +2,16 @@
 - **TRACK CHOSEN:**
   ![track](https://github.com/ANUJT65/bob_hackathon/assets/123918593/3d507f68-56ee-4f6b-a4e8-0eda52b922b7)
 
-# Table of Contents
+## Title:  Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
+ **Team Cyber Wardens**  
+**College: Vishwakarma Institute of Technology**  
+**Team Members:**
+- Chinmayee Prabhu
+- Pratham Gadkari
+- Suraj Chavan
+- Anuj Tadkase
 
-| Section                              |
-|--------------------------------------|
-| [Bank Of Baroda Hackathon](#bank-of-baroda-hackathon)         |
-| [Problem Statement/Idea](#problem-statement)                       |
-| [Prerequisites for Understanding the Project](#prerequisites-for-understanding-the-project) |
-| [Methodology](#methodology)                                   |
-| [Implementation](#implementation)                             |
-| [Tech Stack](#tech-stack)                                     |
-| [Security Considerations](#security-considerations)           |
-| [Key Differentiator](#key-differentiator)                     |
-| [User Experience](#user-experience)                           |
-| [Scalability](#scalability)                                   |
-| [Conclusion](#conclusion)                                     |
+# Table of Contents
 
 | Section                              |
 |--------------------------------------|
@@ -34,15 +29,6 @@
 | [Conclusion/Feedback](#closing-remarks)                                     |
 
 
-
-## Title:  Walter White: Generative AI-Powered Centralized Dashboard for Enhanced Operations and Loan Approvals
- **Team Cyber Wardens**  
-**College: Vishwakarma Institute of Technology**  
-**Team Members:**
-- Chinmayee Prabhu
-- Pratham Gadkari
-- Suraj Chavan
-- Anuj Tadkase
 ---
 
 ## Problem Statement
