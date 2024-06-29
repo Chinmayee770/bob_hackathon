@@ -58,11 +58,11 @@ The parameters for giving business loans are very different from personal loans.
 The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
-### 2. Email and application forms Classification and Categorization(Enhancing customer connect):
+### . Email and application forms Classification and Categorization(Enhancing customer connect):
 Scalable Machine learning models categorizes and classify banking applications forms and  emails sent to respective departments so that customers are prioritized and their queries are always resolved.
 -[Categories Considered]()
 
-### 3.Analytics and repetitive calculations 
+### .Analytics and repetitive calculations 
 Using Generative AI and various mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
 
 ## Methodology
@@ -112,7 +112,8 @@ The Walter White dashboard integrates various Azure services and machine learnin
 - **Reference 1.2: On how excel files will be processed into sql for analysis** [Building an Azure Function to Process Excel Files](https://medium.com/@ynskrn54/building-an-azure-function-to-process-excel-files-from-blob-storage-and-store-data-in-azure-sql-312947e21674)
     
 ### 2 Business Loans thresholds
-- **For approval of business loans we are checking 3 thresholds as follows **
+
+ **For approval of business loans we are checking 3 thresholds as follows**
 
 ### 2.1. External Data Integration For Company Reputation Check
 - **Azure Logic Apps:** Automates fetching of news articles related to businesses using a News API.
