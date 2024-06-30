@@ -46,7 +46,7 @@ The banking industry faces significant challenges in operational efficiency, par
 ## Prerequisites for understanding the project
 
 ## (Various considerations in project)
-**THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS WHICH WE ARE CONSIDERING FOR THIS PROJECT**
+**THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS ,For giving each loan there are various input parameters to be considered for the loan to be approved and they are given as follows**
 ## 1.1) Business Loans Considerations
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
 - Income tax returns :
