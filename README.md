@@ -46,7 +46,8 @@ The banking industry faces significant challenges in operational efficiency, par
 ## Prerequisites for understanding the project
 
 ## (Various considerations in project)
-**THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS ,For giving each loan there are various input parameters to be considered for the loan to be approved and they are given as follows**
+**THERE ARE 2 TYPES OF LOANS , BUSINESS LOANS AND PERSONAL LOANS**
+- **For giving each loan there are various input parameters to be considered for the loan to be approved and they are given as follows**
 ## 1.1) Business Loans Considerations
 The parameters for giving business loans are very different from personal loans. The parameters considered include:
 - Income tax returns :
@@ -59,11 +60,13 @@ The parameters considered for personal loans are detailed in the following PDF:
 - [Personal loan CIBIL score form for input](https://drive.google.com/file/d/1y1H42ZYHDpVyRy0YMS66Z_2i_ig3XX-0/view)
 
 ### 2.) Email and application forms Classification and Categorization(Enhancing customer connect):
-Scalable Machine learning models categorizes and classify banking applications forms and  emails sent to respective departments so that customers are prioritized and their queries are always resolved.
--[Categories Considered]()
+- Here the inputs are similar to those given in diagram, operational emails,complaints, application forms etc
+- Scalable Machine learning models categorizes and classify banking applications forms and  emails which are sent to respective departments so that customers are prioritized and their queries are always resolved.
 
 ### 3.) Analytics and repetitive calculations 
-Using Generative AI and various mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
+- here the inputs are mostly queries from bankers:
+- Using Generative AI and various mathematical methods we are ensuring that analytics and calculations are automated and done with utmost ease.
+
 
 ## Methodology
 
