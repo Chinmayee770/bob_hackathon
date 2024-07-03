@@ -156,7 +156,7 @@ The Walter White dashboard integrates various Azure services and machine learnin
   
 
 ### 6. Lang-Chain and Azure Gen AI for Database Retrieval and analytics
-- **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.
+- **Azure Functions:** Uses Lang-Chain and Azure AI for efficient database retrieval and analytics based on predefined prompts.(This runs pandas and sql scripts so that access to csv and database can be achieved through generative ai)
 - User would just ask the bot which dataset they want to do analysis on and would retrieve it from blob storage(seperate storage for documents/pdfs in blob storage and info in csv helps for this purpose)
 - **Reference on how ai generated sql database retrieval work:[medium]** [Chat with MySQL using Python and LangChain](https://alejandro-ao.com/chat-with-mysql-using-python-and-langchain/)
 - **reference on how gen ai based analytics works:[git link]** [Chat Gen Ai and LangChain based analytics](https://github.com/ANUJT65/bob_hackathon/blob/main/backend/Gen%20AI%20analytics%20chat%20Using%20Pandas%20Dataframe%20Agent.ipynb)
